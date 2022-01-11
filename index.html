@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>R for Beginners</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Dr Ajay Kumar Koli" />
+    <meta name="date" content="2022-01-09" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/tachyons/tachyons.min.css" rel="stylesheet" />
+    <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
+    <script src="libs/tile-view/tile-view.js"></script>
+    <script src="libs/xaringanExtra-webcam/webcam.js"></script>
+    <script id="xaringanExtra-webcam-options" type="application/json">{"width":"200","height":"200","margin":"1em"}</script>
+    <script src="libs/xaringanExtra_fit-screen/fit-screen.js"></script>
+    <link href="libs/xaringanExtra-extra-styles/xaringanExtra-extra-styles.css" rel="stylesheet" />
+    <script src="libs/clipboard/clipboard.min.js"></script>
+    <link href="libs/shareon/shareon.min.css" rel="stylesheet" />
+    <script src="libs/shareon/shareon.min.js"></script>
+    <link href="libs/xaringanExtra-shareagain/shareagain.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-shareagain/shareagain.js"></script>
+    <link href="libs/panelset/panelset.css" rel="stylesheet" />
+    <script src="libs/panelset/panelset.js"></script>
+    <meta name="description" content="Ajay Koli - Vishwakarma University"/>
+    <meta name="generator" content="xaringan and remark.js"/>
+    <meta name="github-repo" content="koliajaykr/plagiarism-zotero"/>
+    <meta name="twitter:title" content="Research Methodlogy"/>
+    <meta name="twitter:description" content="Ajay Koli - Vishwakarma University"/>
+    <meta name="twitter:url" content="https://starm.netlify.app/"/>
+    <meta name="twitter:image" content="https://starm.netlify.app/images/social-card.png"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:creator" content="@ajay_kolii"/>
+    <meta name="twitter:site" content="@ajay_kolii"/>
+    <meta property="og:title" content="Research Methodlogy"/>
+    <meta property="og:description" content="Ajay Koli - Vishwakarma University"/>
+    <meta property="og:url" content="https://starm.netlify.app/"/>
+    <meta property="og:image" content="https://starm.netlify.app/images/social-card.png"/>
+    <meta property="og:type" content="talk"/>
+    <meta property="og:locale" content="en_US"/>
+    <meta property="article:author" content="Ajay Koli"/>
+    <link href="libs/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/my-theme.css" type="text/css" />
+    <link rel="stylesheet" href="css/my-fonts.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+
+
+layout: true
+
+---
+
+class: title-slide, center, middle, hide-count, hide-logo
+
+background-image: url("https://images.unsplash.com/photo-1513890333407-6f85205e8ef2?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1770&amp;q=80")
+background-size: cover
+background-position:
+
+
+
+# .big-text[ R for Beginners]
+
+### .orange[Dr Ajay Kumar Koli | Vishwakarma University - Pune]
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+---
+class: center, middle, hide-logo
+
+.pull-left[
+&lt;img src="images/ajaykoli.png" width="70%" /&gt;
+
+Dr Ajay Kumar Koli&lt;br&gt;Assistant Professor&lt;br&gt;Department of Travel &amp; Tourism&lt;br&gt;Vishwakarma University - Pune&lt;br&gt;<i class="fab  fa-twitter "></i>[@ajay_kolii](https://twitter.com/ajay_kolii)&lt;br&gt;<i class="fas  fa-envelope "></i>   [koliajaykumar@gmail.com](koliajaykumar@gmail.com)
+
+]
+
+.pull-right[
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+# Hello! 😊
+]
+
+---
+
+# Schedule:
+  
+👨‍🏫 Total five sessions
+
+📅 24, 25, 27, 28 &amp; 29 Jan 2022
+
+⏰ from 04:00 to 06:00 PM IST.
+
+⚡ Google Meet
+
+🤯 Assessment 1 (25 Jan 2022 | Deadline of submission: 26 Jan 2022 at 21:30 PM) &amp; Assessment - 2 (29 Jan 2022 | Deadline of submission: 30 Jan 2022 at 21:30 PM)
+
+---
+
+name: contents-slide
+
+# Topics:
+
+1. [Basics of R &amp; RStudio](#session1)
+
+1. [Dynamic Documents using R Markdown](#session2)
+
+1. [Data Visualisation](#session3)
+
+1. [Data Wrangling](#session4)
+
+1. [Slidecrafting using xaringan](#session5) 
+
+---
+name: session1
+
+class: title-slide, right, middle, hide-count, hide-logo
+
+background-image: url("https://images.unsplash.com/photo-1513949474464-08a0bdb4fa54?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1770&amp;q=80")
+background-size: cover
+background-position: 
+
+# .white.big-text[R  and&lt;br&gt;RStudio:&lt;br&gt;Basics] 
+## .white.black[Session - 1]
+
+
+---
+name: session2
+
+class: title-slide, left, top, hide-count, hide-logo
+
+background-image: url("https://images.unsplash.com/photo-1617063033111-74cf600531d8?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1776&amp;q=80")
+background-size: cover
+
+# .white.big-text[Data Visualisation]
+## .white[Session - 2]
+
+---
+name: session3
+
+class: title-slide, center, middle, hide-count, hide-logo
+
+background-image: url("https://images.unsplash.com/photo-1617164924207-40e6ee7c3ffe?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1740&amp;q=80")
+background-size: cover
+
+# .white.big-text[Dynamic Documents]
+## .white[Session - 3]
+
+---
+name: session4
+
+class: title-slide, right, middle, hide-count, hide-logo
+
+background-image: url("https://images.unsplash.com/photo-1591903934817-c02acbfd4665?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1932&amp;q=80")
+background-size: cover
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+# .white.big-text[Data&lt;br&gt;Wrangling]
+## .white[Session - 4]
+
+---
+name: session5
+
+class: title-slide, left, middle, hide-count, hide-logo
+
+background-image: url("https://images.unsplash.com/photo-1638366271870-8b3d428f27f8?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1771&amp;q=80")
+background-size: cover
+
+# .big-text[Slide&lt;br&gt;Crafting]
+## Session - 5
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "solarized-light",
+"highlightLanguage": ["r", "css", "yaml"],
+"slideNumberFormat": "%current%/%total%",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+<style>
+.logo {
+  background-image: url(logo.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  width: 110px;
+  height: 128px;
+  z-index: 0;
+}
+</style>
+
+<script>
+document
+  .querySelectorAll(
+    '.remark-slide-content' +
+    ':not(.title-slide)' +
+    // add additional classes to exclude here, e.g.
+    // ':not(.inverse)' +
+    ':not(.hide-logo)'
+  )
+  .forEach(el => {
+    el.innerHTML += '<div class="logo"></div>';
+  });
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

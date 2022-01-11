@@ -1,0 +1,199 @@
+---
+title: "R for Beginners"
+subtitle: "Online Training Program"
+author: "Dr Ajay Kumar Koli"
+date: "`r format(Sys.Date(), '%B %e, %Y')`"
+output:
+  xaringan::moon_reader:
+    includes:
+      after_body: insert-logo.html
+    css: ["default", "css/my-theme.css", "css/my-fonts.css"]
+    seal: false
+    lib_dir: libs
+    nature:
+      # autoplay: 5000
+      highlightStyle: solarized-light
+      highlightLanguage: ["r", "css", "yaml"]
+      slideNumberFormat: "%current%/%total%" 
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(collapse = TRUE,
+                      fig.retina = 3,
+                      echo = FALSE)
+library(countdown)
+library(ymlthis)
+library(tidyverse)
+library(magick)
+library(icon)
+library(xaringanExtra)
+xaringanExtra::use_tachyons()
+xaringanExtra::use_tile_view()
+xaringanExtra::use_webcam()
+xaringanExtra::use_fit_screen()
+xaringanExtra::use_extra_styles(hover_code_line = TRUE, mute_unhighlighted_code = TRUE)
+xaringanExtra::use_share_again()
+xaringanExtra::use_panelset()
+
+```
+
+layout: true
+
+---
+
+class: title-slide, center, middle, hide-count, hide-logo
+
+background-image: url("https://images.unsplash.com/photo-1513890333407-6f85205e8ef2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80")
+background-size: cover
+background-position:
+
+```{r meta, echo=FALSE}
+library(metathis)
+meta() %>%
+  meta_general(
+    description = "Ajay Koli - Vishwakarma University",
+    generator = "xaringan and remark.js"
+  ) %>% 
+  meta_name("github-repo" = "koliajaykr/plagiarism-zotero") %>% 
+  meta_social(
+    title = "Research Methodlogy",
+    url = "https://starm.netlify.app/",
+    image = "https://starm.netlify.app/images/social-card.png",
+    og_type = "talk",
+    og_author = "Ajay Koli",
+    twitter_card_type = "summary_large_image",
+    twitter_creator = "@ajay_kolii"
+  ) %>%
+  include_meta()
+```
+
+# .big-text[ `r rmarkdown::metadata$title`]
+
+### .orange[`r rmarkdown::metadata$author` | Vishwakarma University - Pune]
+<br>
+<br>
+<br>
+<br>
+<br>
+---
+class: center, middle, hide-logo
+
+.pull-left[
+```{r , echo=FALSE, out.width="70%"}
+library(magick)
+
+knitr::include_graphics("images/ajaykoli.png") 
+# `r format(Sys.Date(), "%d %B %Y") 
+# <i class="fab fa-r-project"></i>
+```
+
+Dr Ajay Kumar Koli<br>Assistant Professor<br>Department of Travel & Tourism<br>Vishwakarma University - Pune<br>`r icon::fa("twitter")`[@ajay_kolii](https://twitter.com/ajay_kolii)<br>`r icon::fa("envelope")`   [koliajaykumar@gmail.com](koliajaykumar@gmail.com)
+
+]
+
+.pull-right[
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+# Hello! `r emo::ji("blush")`
+]
+
+---
+
+# Schedule:
+  
+`r emo::ji("man_teacher")` Total five sessions
+
+`r emo::ji("date")` 24, 25, 27, 28 & 29 Jan 2022
+
+`r emo::ji("alarm_clock")` from 04:00 to 06:00 PM IST.
+
+`r emo::ji("high_voltage")` Google Meet
+
+`r emo::ji("exploding_head")` Assessment 1 (25 Jan 2022 | Deadline of submission: 26 Jan 2022 at 21:30 PM) & Assessment - 2 (29 Jan 2022 | Deadline of submission: 30 Jan 2022 at 21:30 PM)
+
+---
+
+name: contents-slide
+
+# Topics:
+
+1. [Basics of R & RStudio](#session1)
+
+1. [Dynamic Documents using R Markdown](#session2)
+
+1. [Data Visualisation](#session3)
+
+1. [Data Wrangling](#session4)
+
+1. [Slidecrafting using xaringan](#session5) 
+
+---
+name: session1
+
+class: title-slide, right, middle, hide-count, hide-logo
+
+background-image: url("https://images.unsplash.com/photo-1513949474464-08a0bdb4fa54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80")
+background-size: cover
+background-position: 
+
+# .white.big-text[R  and<br>RStudio:<br>Basics] 
+## .white.black[Session - 1]
+
+
+---
+name: session2
+
+class: title-slide, left, top, hide-count, hide-logo
+
+background-image: url("https://images.unsplash.com/photo-1617063033111-74cf600531d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1776&q=80")
+background-size: cover
+
+# .white.big-text[Data Visualisation]
+## .white[Session - 2]
+
+---
+name: session3
+
+class: title-slide, center, middle, hide-count, hide-logo
+
+background-image: url("https://images.unsplash.com/photo-1617164924207-40e6ee7c3ffe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80")
+background-size: cover
+
+# .white.big-text[Dynamic Documents]
+## .white[Session - 3]
+
+---
+name: session4
+
+class: title-slide, right, middle, hide-count, hide-logo
+
+background-image: url("https://images.unsplash.com/photo-1591903934817-c02acbfd4665?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80")
+background-size: cover
+
+<br>
+<br>
+<br>
+<br>
+
+# .white.big-text[Data<br>Wrangling]
+## .white[Session - 4]
+
+---
+name: session5
+
+class: title-slide, left, middle, hide-count, hide-logo
+
+background-image: url("https://images.unsplash.com/photo-1638366271870-8b3d428f27f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80")
+background-size: cover
+
+# .big-text[Slide<br>Crafting]
+## Session - 5
