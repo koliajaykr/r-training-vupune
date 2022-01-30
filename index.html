@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>R for Beginners</title>
+    <title>R FOR BEGINNERS</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Dr Ajay Kumar Koli" />
-    <meta name="date" content="2022-01-09" />
+    <meta name="author" content="By: Ajay Koli" />
+    <meta name="date" content="2022-01-30" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link href="libs/tachyons/tachyons.min.css" rel="stylesheet" />
@@ -21,24 +21,26 @@
     <script src="libs/xaringanExtra-shareagain/shareagain.js"></script>
     <link href="libs/panelset/panelset.css" rel="stylesheet" />
     <script src="libs/panelset/panelset.js"></script>
-    <meta name="description" content="Ajay Koli - Vishwakarma University"/>
+    <meta name="description" content="Ajay Koli - Aspiring Data Scientist"/>
     <meta name="generator" content="xaringan and remark.js"/>
-    <meta name="github-repo" content="koliajaykr/plagiarism-zotero"/>
-    <meta name="twitter:title" content="Research Methodlogy"/>
-    <meta name="twitter:description" content="Ajay Koli - Vishwakarma University"/>
-    <meta name="twitter:url" content="https://starm.netlify.app/"/>
-    <meta name="twitter:image" content="https://starm.netlify.app/images/social-card.png"/>
+    <meta name="github-repo" content="koliajaykr/r-training-vupune"/>
+    <meta name="twitter:title" content="R FOR BEGINNERS"/>
+    <meta name="twitter:description" content="Ajay Koli - Aspiring Data Scientist"/>
+    <meta name="twitter:url" content="https://r4b-vu.netlify.app/"/>
+    <meta name="twitter:image" content="https://r4b-vu.netlify.app/images/social-card.png"/>
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:creator" content="@ajay_kolii"/>
     <meta name="twitter:site" content="@ajay_kolii"/>
-    <meta property="og:title" content="Research Methodlogy"/>
-    <meta property="og:description" content="Ajay Koli - Vishwakarma University"/>
-    <meta property="og:url" content="https://starm.netlify.app/"/>
-    <meta property="og:image" content="https://starm.netlify.app/images/social-card.png"/>
+    <meta property="og:title" content="R FOR BEGINNERS"/>
+    <meta property="og:description" content="Ajay Koli - Aspiring Data Scientist"/>
+    <meta property="og:url" content="https://r4b-vu.netlify.app/"/>
+    <meta property="og:image" content="https://r4b-vu.netlify.app/images/social-card.png"/>
     <meta property="og:type" content="talk"/>
     <meta property="og:locale" content="en_US"/>
     <meta property="article:author" content="Ajay Koli"/>
     <link href="libs/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" />
+    <link href="libs/countdown/countdown.css" rel="stylesheet" />
+    <script src="libs/countdown/countdown.js"></script>
     <link rel="stylesheet" href="css/my-theme.css" type="text/css" />
     <link rel="stylesheet" href="css/my-fonts.css" type="text/css" />
   </head>
@@ -48,34 +50,35 @@
 
 
 
-layout: true
 
----
 
 class: title-slide, center, middle, hide-count, hide-logo
 
 background-image: url("https://images.unsplash.com/photo-1513890333407-6f85205e8ef2?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1770&amp;q=80")
 background-size: cover
-background-position:
 
+# .big-text.black[ R FOR BEGINNERS]
 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
 
-# .big-text[ R for Beginners]
+.footnote[
+.white[Image credits:][Kelly Sikkema
+](https://unsplash.com/photos/p1ZgObLpa0A)
+]
 
-### .orange[Dr Ajay Kumar Koli | Vishwakarma University - Pune]
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
 ---
-class: center, middle, hide-logo
+class: middle, hide-logo
 
 .pull-left[
-&lt;img src="images/ajaykoli.png" width="70%" /&gt;
+&lt;img src="images/ajaykoli.png" width="70%" style="display: block; margin: auto auto auto 0;" /&gt;
 
-Dr Ajay Kumar Koli&lt;br&gt;Assistant Professor&lt;br&gt;Department of Travel &amp; Tourism&lt;br&gt;Vishwakarma University - Pune&lt;br&gt;<i class="fab  fa-twitter "></i>[@ajay_kolii](https://twitter.com/ajay_kolii)&lt;br&gt;<i class="fas  fa-envelope "></i>   [koliajaykumar@gmail.com](koliajaykumar@gmail.com)
-
+Dr Ajay Kumar Koli&lt;br&gt;Assistant Professor&lt;br&gt;Department of Travel &amp; Tourism&lt;br&gt;Vishwakarma University - Pune&lt;br&gt;<i class="fab  fa-twitter "></i> [@ajay_kolii](https://twitter.com/ajay_kolii)&lt;br&gt;<i class="fas  fa-envelope "></i> [koliajaykumar@gmail.com](koliajaykumar@gmail.com)
+&lt;br&gt;<i class="fas  fa-globe "></i> [https://koliajay.netlify.app/](https://koliajay.netlify.app/)
 ]
 
 .pull-right[
@@ -83,79 +86,2580 @@ Dr Ajay Kumar Koli&lt;br&gt;Assistant Professor&lt;br&gt;Department of Travel &a
 &lt;br&gt;
 &lt;br&gt;
 &lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
+# .big-text[Hello! 😊]
 
-# Hello! 😊
 ]
 
 ---
 
-# Schedule:
-  
-👨‍🏫 Total five sessions
+# Modules:
 
-📅 24, 25, 27, 28 &amp; 29 Jan 2022
+1. .b[[Basics of R &amp; RStudio](#module1)]
 
-⏰ from 04:00 to 06:00 PM IST.
+1. [Dynamic Documents using R Markdown](#module2)
 
-⚡ Google Meet
+1. [Data Visualisation using ggplot2](#module3)
 
-🤯 Assessment 1 (25 Jan 2022 | Deadline of submission: 26 Jan 2022 at 21:30 PM) &amp; Assessment - 2 (29 Jan 2022 | Deadline of submission: 30 Jan 2022 at 21:30 PM)
+1. [Data Wrangling using dplyr](#module4)
 
----
-
-name: contents-slide
-
-# Topics:
-
-1. [Basics of R &amp; RStudio](#session1)
-
-1. [Dynamic Documents using R Markdown](#session2)
-
-1. [Data Visualisation](#session3)
-
-1. [Data Wrangling](#session4)
-
-1. [Slidecrafting using xaringan](#session5) 
+1. [Slide Crafting using xaringan](#module5)
 
 ---
-name: session1
+name: module1
 
 class: title-slide, right, middle, hide-count, hide-logo
 
 background-image: url("https://images.unsplash.com/photo-1513949474464-08a0bdb4fa54?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1770&amp;q=80")
 background-size: cover
-background-position: 
 
 # .white.big-text[R  and&lt;br&gt;RStudio:&lt;br&gt;Basics] 
 ## .white.black[Session - 1]
 
+.footnote[
+.white[Image credits:][Kelly Sikkema
+](https://unsplash.com/photos/p1ZgObLpa0A)
+]
 
 ---
-name: session2
 
-class: title-slide, left, top, hide-count, hide-logo
+class: hide-logo, center
 
-background-image: url("https://images.unsplash.com/photo-1617063033111-74cf600531d8?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1776&amp;q=80")
+&lt;iframe width="960" height="615" src="https://www.youtube.com/embed/K9WeFAEPo6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+---
+
+class: hide-logo
+
+background-image: url("https://github.com/allisonhorst/stats-illustrations/raw/master/rstats-artwork/r_first_then.png")
+background-size: contain
+
+.footnote[
+[Source](https://github.com/allisonhorst/stats-illustrations)
+]
+
+---
+
+# 😍 R is FREE 
+
+- R is a language and environment for statistical computing and graphics. (R project)
+
+--
+
+- In August 1993, designed by
+
+.pull-left[
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="https://cdn.auckland.ac.nz/aem/content/auckland/en/science/about-the-faculty/department-of-statistics/ihaka-lecture-series/_jcr_content/leftpar/imagecomponent/image.img.480.low.jpg/1561079330278.jpg" alt="Ross Ihaka &amp;lt;br&amp;gt;(New Zealand Statistician)" width="80%" /&gt;
+&lt;p class="caption"&gt;Ross Ihaka &lt;br&gt;(New Zealand Statistician)&lt;/p&gt;
+&lt;/div&gt;
+
+]
+
+.pull-right[
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="https://www.computerhope.com/people/pictures/robert_gentleman.jpg" alt="Robert Gentleman&amp;lt;br&amp;gt;(Canadian Statistician)" width="50%" /&gt;
+&lt;p class="caption"&gt;Robert Gentleman&lt;br&gt;(Canadian Statistician)&lt;/p&gt;
+&lt;/div&gt;
+
+]
+
+---
+
+class: center
+
+# Download R from [CRAN](https://cran.r-project.org/mirrors.html)
+
+&lt;img src="images/cran.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: right
+
+.pull-left[
+# R Console
+
+##- R version
+
+##- R name
+
+##- R licence
+
+##- prompt `&gt;`
+]
+
+.pull-right[
+
+&lt;img src="images/console.png" width="100%" style="display: block; margin: auto auto auto 0;" /&gt;
+]
+
+---
+
+# .red[Never Save R "Workspace Image":]
+
+.pull-left[
+- It helps in "freshly minted R sessions".
+
+- "put more trust in your script than in your memory"
+
+.footnote[
+[Source](https://www.r-bloggers.com/2017/04/using-r-dont-save-your-workspace/)
+]
+
+]
+
+.pull-right[
+
+&lt;img src="images/quit.png" width="75%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+# .center[R as a BIG calc]
+
+.pull-left[
+
+### .center[What you code]
+
+
+```r
+*1 
+```
+
+]
+
+.pull-right[
+
+### .center[What you see]
+
+
+```
+## [1] 1
+```
+
+]
+
+---
+
+# .center[R as a BIG calc]
+
+.pull-left[
+
+### .center[What you code]
+
+
+```r
+1
+*1 + 1
+```
+
+]
+
+.pull-right[
+
+### .center[What you see]
+
+
+```
+## [1] 1
+## [1] 2
+```
+
+]
+
+
+---
+
+# .center[R as a BIG calc]
+
+.pull-left[
+
+### .center[What you code]
+
+
+```r
+1
+1 + 1
+*34 / 40
+```
+
+]
+
+.pull-right[
+
+### .center[What you see]
+
+
+```
+## [1] 1
+## [1] 2
+## [1] 0.85
+```
+
+]
+
+---
+
+# .center[R as a BIG calc]
+
+.pull-left[
+
+### .center[What you code]
+
+
+```r
+1
+1 + 1
+34 / 40
+*5 &lt; 4
+```
+
+]
+
+.pull-right[
+
+### .center[What you see]
+
+
+```
+## [1] 1
+## [1] 2
+## [1] 0.85
+## [1] FALSE
+```
+
+]
+
+---
+
+# .center[R as a BIG calc]
+
+.pull-left[
+
+### .center[What you code]
+
+
+```r
+1
+1 + 1
+34 / 40
+5 &lt; 4
+*16 == 16
+```
+
+]
+
+.pull-right[
+
+### .center[What you see]
+
+
+```
+## [1] 1
+## [1] 2
+## [1] 0.85
+## [1] FALSE
+## [1] TRUE
+```
+
+]
+
+---
+
+# .center[Plot using R]
+
+.panelset[
+  
+  .panel[.panel-name[Code]
+
+
+```r
+*plot(1:100)
+```
+
+]
+  .panel[.panel-name[Output]
+
+&lt;img src="index_files/figure-html/unnamed-chunk-7-1.png" width="40%" style="display: block; margin: auto;" /&gt;
+
+]
+]
+
+---
+
+class: inverse, hide-count, center, bottom, hide-logo
+background-image: url("images/rainbowr.gif")
+background-size: 50%
+background-position: 50% 5%
+
+# .bottom.big-text[Functions]
+
+---
+
+# R Function
+
+- "A function, in a programming environment, is a set of instructions. A programmer builds a function to avoid repeating the same task, or reduce complexity."
+
+&lt;br&gt;
+
+--
+
+.panelset[
+  
+  .panel[.panel-name[Code]
+  
+
+```r
+*round(9.1565, 2)
+```
+
+]
+  .panel[.panel-name[Output]
+  
+
+```
+## [1] 9.16
+```
+
+]
+]
+
+---
+
+class: center
+background-image: url("images/function-args.png")
+background-size: 90%
+background-position: 60% 70%
+
+# Structure of R function
+
+---
+
+# .center[Round Function]
+
+.panelset[
+  
+  .panel[.panel-name[Code]
+
+
+```r
+round(x = 564.56743, digits = 2)
+```
+
+]
+  .panel[.panel-name[Output]
+
+
+```
+## [1] 564.57
+```
+
+]
+]
+
+---
+
+# .center[Round Function]
+
+.panelset[
+  
+  .panel[.panel-name[Code]
+  
+
+```r
+round(x = 564.56743, digits = 1)
+```
+
+]
+
+  .panel[.panel-name[Output]
+
+
+```
+## [1] 564.6
+```
+
+]
+]
+
+---
+
+# .center[Square Root Function]
+
+.panelset[
+  
+  .panel[.panel-name[Code]
+
+
+```r
+*sqrt(x = 9)
+```
+
+]
+
+  .panel[.panel-name[Output]
+  
+
+```
+## [1] 3
+```
+
+]
+]
+
+---
+
+# .center[Sequence Function]
+
+.panelset[
+  
+  .panel[.panel-name[Code]
+
+
+```r
+*seq.int(from = 10, to = 30, by = 5)
+```
+
+]
+
+  .panel[.panel-name[Output]
+
+
+```
+## [1] 10 15 20 25 30
+```
+
+]
+]
+
+---
+
+class: inverse, hide-count, center, bottom, hide-logo
+
+background-image: url("images/stormyr.gif")
+background-size: 42%
+background-position: 50% 5%
+
+# .bottom.big-text[Comments]
+
+---
+
+# R Comment:
+
+- "Humans will be able to read the comments, but your computer will pass over them."&lt;sup&gt;1&lt;/sup&gt;
+
+--
+
+- In R, `#` is used as a commenting symbol
+
+.footnote[
+[Source](https://en.wikipedia.org/wiki/Comment_(computer_programming)
+]
+
+---
+
+# .center[How to add comment?]
+
+.panelset[
+  
+  .panel[.panel-name[Code]
+  
+
+```r
+# secret code of happiness
+
+(1 + 4) - (3 * 5) / 10
+
+## r does not evaluate this
+# all these are comments
+# comments are very important
+```
+
+]         
+
+  .panel[.panel-name[Output]
+  
+
+```
+## [1] 3.5
+```
+         
+  ]
+  
+]
+
+
+---
+
+# 😼 *That's okay but you promise to...*
+
+--
+
+- combine plot, text, tables and images in a single file.
+
+--
+
+- publish my work online or convert into a word, pdf or html file.
+
+--
+
+- work efficiently with my different projects and save, share and track them.
+
+--
+
+## .orange[WE NEED A SUPERHERO ... ]
+
+---
+class: center, middle, hide-count, hide-logo
+
+background-image: url("https://www.rstudio.com/wp-content/uploads/2018/10/RStudio-Logo-Flat.png")
+background-size: contain
+
+---
+
+class: hide-logo
+
+background-image: url("https://res-5.cloudinary.com/crunchbase-production/image/upload/c_thumb,h_256,w_256,f_auto,g_faces,z_0.7,q_auto:eco/v1398402407/chvmdsmomg96uoz8g3ad.jpg")
+background-size: 20%
+background-position: 99% 1%
+
+# 😻 About RStudio:
+
+- 2009, Joseph J. Allaire founded RStudio.
+
+--
+
+- 2011, RStudio IDE for R was launched.
+
+--
+
+- "RStudio is dedicated to sustainable investment in free and open-source software for data science." (16 Jan 2022)
+
+.footnote[
+[Source](https://www.rstudio.com/about/)
+]
+
+---
+class: center
+
+# R `\(\rightleftharpoons\)` RStudio
+
+--
+
+.pull-left[
+## Imagine RStudio as a stylish car ...
+
+# .big-text[🚗]
+]
+
+--
+
+.pull-right[
+## and R as its powerful engine.
+
+# .big-text[⚙️]
+]
+
+---
+
+class: center
+
+# RStudio IDE
+
+&lt;img src="images/rstd-ide.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+
+---
+
+class: center
+
+### RStudio `\(\rightarrow\)` Tools `\(\rightarrow\)` Global Options
+
+&lt;img src="images/rstd-options.png" width="50%" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center
+
+### RStudio `\(\rightarrow\)` Tools `\(\rightarrow\)` Global Options
+
+&lt;img src="images/rstd-options2.png" width="50%" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center, hide-logo
+
+background-image: url("images/learn.png")
+background-size: 125%
+
+background-color: #F5F4F2
+
+.footnote[
+[Source](https://education.rstudio.com)
+]
+
+---
+class: center middle
+
+# R Program
+
+&lt;img src="images/data-science.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+
+.footnote[
+[Source](https://r4ds.had.co.nz/introduction.html)
+]
+
+---
+class: center middle
+
+# Data Wrangling
+
+&lt;img src="images/data-science-wrangle.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+.footnote[
+[Source](https://r4ds.had.co.nz/introduction.html)
+]
+
+---
+class: center middle
+
+# Exploratory Data Analysis
+
+&lt;img src="images/data-science-explore.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+.footnote[
+[Source](https://r4ds.had.co.nz/introduction.html)
+]
+
+---
+class: center middle
+
+# Modeling
+
+&lt;img src="images/data-science-model.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+.footnote[
+[Source](https://r4ds.had.co.nz/introduction.html)
+]
+
+---
+class: center middle
+
+# Data Visualisation
+
+&lt;img src="images/data-science-communicate.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+.footnote[
+[Source](https://r4ds.had.co.nz/introduction.html)
+]
+
+---
+class: center middle
+
+# R Program
+
+&lt;img src="images/data-science-program.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+.footnote[
+[Source](https://r4ds.had.co.nz/introduction.html)
+]
+
+---
+
+class: hide-count, hide-logo
+
+background-image: url("https://pbs.twimg.com/media/FJJ3qyAXwAQSI8s?format=jpg&amp;name=medium")
+background-size: 70%
+background-position: 70%  
+
+.footnote[
+[Source](https://www.business-science.io/learning-r/2018/11/04/data-science-r-cheatsheet.html)
+]
+
+
+---
+
+class: center, middle, hide-count, hide-logo
+
+background-image: url("images/space-pkgs.png")
+background-position: 110%
+background-size: contain
+
+.pull-left[
+# .big-text[R&lt;br&gt;Packages]
+]
+
+---
+
+# R Packages:
+
+- On 12 Jan 2022, 18698 R packages were available at [CRAN](https://cran.r-project.org/web/packages/)
+
+--
+
+- "An R package is a collection of functions, data, and documentation that extends the capabilities of base R. Using packages is key to the successful use of R."
+
+--
+
+- Top downloaded packages [source](https://www.r-pkg.org/downloaded)
+
+.footnote[
+[Source](https://r4ds.had.co.nz/introduction.html)
+]
+
+---
+class: center
+
+# To Download pkgs
+
+&lt;img src="images/pkg-download1.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+---
+class: center
+
+# Name of the R package(s)
+
+&lt;img src="images/pkg-download2.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+---
+class: center
+
+# Installed R package(s)
+
+&lt;img src="images/pkg-download3.png" width="45%" style="display: block; margin: auto;" /&gt;
+
+---
+
+# R Function to Download Package
+
+
+```r
+*install.packages("tidyverse")
+```
+
+--
+
+# R Function to use Package
+
+
+```r
+*library(tidyverse)
+```
+
+---
+
+# About R Packages:
+
+- You need to install package only once like
+
+  - 📚 We buy books once and use them again and again
+
+--
+
+  - 💡 Fix the bulb once and use it again and again 
+
+--
+
+- In every R document you need to `call once` the package using function `library()`, for example library(ggplot2).
+
+--
+
+- Once in a while, you need to update the installed packages as well.
+
+
+--
+
+- If you un-install R or RStudio, you will lose all installed packages.
+
+---
+
+class: center
+
+# Tools `\(\rightarrow\)` Check Package Updates
+
+&lt;img src="images/update-pkg1.png" width="42%" style="display: block; margin: auto;" /&gt;
+
+---
+class: center
+
+# Select Package(s) to Update
+
+&lt;img src="images/update-pkg2.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+---
+class: center
+
+# Click Install Updates
+
+&lt;img src="images/update-pkg3.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+---
+class: center
+
+# To Remove Package(s)
+
+&lt;img src="images/remove-pkg.png" width="40%" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: inverse, your-turn, hide-logo
+
+# 🧠 YOUR TURN
+
+.panelset[
+
+  .panel[.panel-name[Task]
+- Install R packages `xaringan` &amp; `palmerpenguins`
+
+- Call R packages using console
+  ]
+  
+  .panel[.panel-name[Answer]
+
+```r
+install.packages(c("xaringan", "palmerpenguins"))
+
+library(xaringan)
+library(palmerpenguins)
+```
+  
+  
+  
+  ]
+
+]
+
+
+<div class="countdown" id="timer_61f6d9ef" style="top:0;right:0;font-size:3em;" data-warnwhen="0">
+<code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+
+---
+
+class: hide-count, center, middle, hide-logo
+background-image: url("images/heartyr.gif")
+background-size: contain
+background-position: 5%
+
+# .right.big-text[Objects]
+
+---
+
+# R Object
+
+##- "Just a name that you can use to call up stored data"
+
+
+
+.footnote[
+Source: [RStudio](https://rstudio-education.github.io/hopr/basics.html) 
+]
+
+---
+
+# .center[Create Object]
+
+.panelset[
+
+.panel[.panel-name[Code]
+
+```r
+*salary &lt;- c(20, 30, 40, 50, -10)
+*salary
+```
+
+]
+
+.panel[.panel-name[Output]
+
+
+```
+## [1]  20  30  40  50 -10
+```
+]
+
+]
+
+---
+
+# .center[Create Object]
+
+.panelset[
+  
+.panel[.panel-name[Code]
+         
+
+```r
+name &lt;- c("Ram", "Rani", "Ali", "Preeti", "John")
+name
+```
+         
+]
+  
+.panel[.panel-name[Output]
+         
+
+```
+## [1] "Ram"    "Rani"   "Ali"    "Preeti" "John"
+```
+]
+  
+]
+
+---
+
+# .center[Create Object]
+
+.panelset[
+  
+  .panel[.panel-name[Code]
+  
+
+```r
+age &lt;- c(34, 54, 23, 65, 2 )
+age
+```
+      
+  ]
+  
+  .panel[.panel-name[Output]
+  
+
+```
+## [1] 34 54 23 65  2
+```
+         
+  ]
+  
+]
+
+---
+
+# .center[Create Object]
+
+.panelset[
+  
+  .panel[.panel-name[Code]
+         
+
+```r
+place &lt;- c("ny", "ber", "dhl", "tko", "lon")
+place
+```
+  ]
+  
+  .panel[.panel-name[Output]
+
+```
+## [1] "ny"  "ber" "dhl" "tko" "lon"
+```
+         
+  ]
+  
+]
+
+---
+
+# .center[Create Object]
+
+.panelset[
+  
+  .panel[.panel-name[Code]
+
+```r
+books &lt;- c(4, 0, 3, 24, 5)
+books
+```
+         
+         
+  ]
+  
+  .panel[.panel-name[Output]
+
+```
+## [1]  4  0  3 24  5
+```
+         
+  ]
+  
+]
+
+---
+
+# Guidelines to name `objects` in R:
+
+  - a name cannot start with a number  
+  
+--
+
+  - a name cannot use some special symbols, like ^, !, $, @, +, -, /, or *:  
+  
+--
+
+  - avoid caps  
+  
+--
+
+  - avoid space  
+--
+
+  - use dash (like na-me) or underscore (like na_me)  
+  
+--
+
+  - if chronology matters then add date (2020-09-05-file-name)
+  
+---
+
+class: center
+
+# RStudio Environment Window
+
+&lt;img src="images/env-rstd.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+--
+
+## 🤔.i.green[how to combine these&lt;br&gt; objects/variables into a data or say tidy data]
+
+---
+exclude: true
+
+class: hide-count, hide-logo
+
+background-image: url("images/tidydata_7.jpg")
 background-size: cover
 
-# .white.big-text[Data Visualisation]
-## .white[Session - 2]
+---
+exclude: true
+
+class: hide-count, hide-logo
+
+background-image: url("images/tidydata_1_1.jpg")
+background-size: contain
 
 ---
-name: session3
+exclude: true
+
+class: hide-count
+background-image: url("images/tidydata_1_2.jpg")
+background-size: contain
+
+---
+exclude: true
+
+class: hide-count
+background-image: url("images/tidydata_2_1.jpg")
+background-size: contain
+
+---
+exclude: true
+
+class: hide-count
+background-image: url("images/tidydata_2_2.jpg")
+background-size: contain
+
+---
+
+class: center
+
+# Tidy data 👇 😻😻😻
+
+
+```
+##   age books   name place salary
+## 1  34     4    Ram    ny     20
+## 2  54     0   Rani   ber     30
+## 3  23     3    Ali   dhl     40
+## 4  65    24 Preeti   tko     50
+## 5   2     5   John   lon    -10
+```
+
+--
+
+&lt;img src="images/tidy-1.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+.footnote[
+[Source](https://r4ds.had.co.nz/index.html)
+]
+
+---
+
+# .center[How to create a data object?]
+
+.panelset[
+  
+  .panel[.panel-name[Code]
+
+```r
+*social &lt;- data.frame(age, books, name, place, salary)
+
+social
+
+```
+         
+    ]
+  
+  .panel[.panel-name[Output]
+
+```
+##   age books   name place salary
+## 1  34     4    Ram    ny     20
+## 2  54     0   Rani   ber     30
+## 3  23     3    Ali   dhl     40
+## 4  65    24 Preeti   tko     50
+## 5   2     5   John   lon    -10
+```
+         
+  ]
+  
+]
+
+---
+
+# .center[How to export data as a csv file?]
+
+.panelset[
+  
+  .panel[.panel-name[Code]
+
+```r
+library(readr)
+# to save this data set as a csv file
+*write_csv(social, "data/social.csv")
+```
+         
+    ]
+  
+  .panel[.panel-name[Output]
+
+         
+  ]
+  
+]
+
+---
+
+class: your-turn, hide-count, hide-logo
+
+# 🧠 YOUR TURN
+
+## .yellow[Write codes for below dataframe]
+
+.panelset[
+
+.panel[.panel-name[Task]
+
+```
+##         state pop    capital foundation
+## 1     Germany  20     Berlin 1870-12-10
+## 2      France  19      Paris 1789-07-14
+## 3       India  50      Delhi 1947-08-15
+## 4      Russia  25     Moscow 1990-06-12
+## 5         USA  30 Washington 1776-07-04
+## 6 New Zealand   5 Wellington 1840-02-06
+```
+
+]
+
+.panel[.panel-name[Answer]
+
+```r
+state &lt;- c("Germany", "France", "India", "Russia", "USA", "New Zealand")
+pop &lt;- c(20, 19, 50, 25, 30, 5)
+capital &lt;- c("Berlin", "Paris", "Delhi", "Moscow", "Washington", "Wellington")
+foundation &lt;- c("1870-12-10", "1789-07-14", "1947-08-15", "1990-06-12", "1776-07-04", "1840-02-06")
+world &lt;- data.frame(state, pop, capital, foundation)
+world
+```
+
+]
+
+]
+<div class="countdown" id="timer_61f6da01" style="top:0;right:0;font-size:3em;" data-warnwhen="0">
+<code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+
+---
+
+# .center[Get a List of all Objects]
+
+.panelset[
+  
+  .panel[.panel-name[Code]
+
+```r
+# names of created objects
+*objects()
+```
+         
+         
+  ]
+  
+  .panel[.panel-name[Output]
+
+```
+##  [1] "age"        "books"      "capital"    "foundation"
+##  [5] "name"       "place"      "pop"        "praw"      
+##  [9] "salary"     "soc"        "social"     "state"     
+## [13] "world"
+```
+         
+  ]
+  
+]
+
+
+---
+
+class: center, middle, hide-count, hide-logo
+
+background-image: url("images/breakr.gif")
+background-size: 50%
+background-position: 90%
+
+.pull-left[
+# .big-text[Need Help!]
+]
+
+---
+class: center
+
+# Using Console  `&gt;`
+
+## in console type `?your query`
+--
+&lt;br&gt;&lt;br&gt;.green[for example] `?ggplot`
+
+---
+
+class: center
+
+# RStudio: pkg Help Docs
+  
+&lt;img src="images/help-cran.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+---
+class: center
+
+# [RStudio Community](https://community.rstudio.com/)
+&lt;br&gt;
+&lt;img src="images/help-rstd.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+---
+class: center
+
+# [stackoverflow](https://stackoverflow.com/)
+&lt;br&gt;
+&lt;img src="images/help-stack.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+---
+class: center
+
+# [GitHub Issues](https://github.com/)
+
+&lt;img src="images/help-git.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+class: center
+
+# [Twitter](https://twitter.com/home) #rstats
+
+&lt;img src="images/help-tweet.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center middle hide-count
+
+#  🙋🏽‍♀️🙋‍♂️&lt;br&gt;.big-text[Q&amp;A]
+
+---
+
+class: center, middle, inverse
+
+# Dynamic Documents&lt;br&gt;Using R Markdown
+### .orange[Next Module - 2]
+
+---
+
+# Modules:
+
+1. [Basics of R &amp; RStudio](#module1)
+
+1. .b[[Dynamic Documents using R Markdown](#module2)]
+
+1. [Data Visualisation using ggplot2](#module3)
+
+1. [Data Wrangling using dplyr](#module4)
+
+1. [Slide Crafting using xaringan](#module5)
+
+
+---
+name: module2
+
+
+class: title-slide, hide-count, hide-logo
+
+background-image: url("https://images.unsplash.com/photo-1617063033111-74cf600531d8?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1776&amp;q=80")
+
+background-size: cover
+
+# .white.big-text[Dynamic Documents]
+## .white[Session - 2]
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+.footnote[
+.white[Image credits:][John Anvik](https://images.unsplash.com/photo-1617063033111-74cf600531d8?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1776&amp;q=80)
+]
+
+---
+
+class: hide-logo, center
+
+&lt;iframe width="960" height="615" src="https://www.youtube.com/embed/6Ro9K2mV5Co" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+---
+
+class: center
+
+# Open RStudio
+
+&lt;img src="images/rstd-proj.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center
+
+# Open RStudio
+
+&lt;img src="images/rstd-proj-none.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+
+---
+
+class: center
+
+# Open RStudio
+
+&lt;img src="images/rstd-proj-folders.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: hide-logo, hide-count, left, middle
+
+background-image: url("images/project-logo.png")
+background-size: contain
+background-position: 110%
+
+# .big-text[RStudio&lt;br&gt;Project]
+
+
+---
+
+background-image: url("images/r-projects.jpg")
+background-size: 62%
+background-position: 100% 80%
+
+# About RStudio Projects
+
+- "to divide your work into multiple contexts, each with their own:         
+
+--
+
+  - working directory, 
+  
+--
+  
+  - workspace, 
+  
+--
+  
+  - history, and 
+  
+--
+  
+  - source documents."
+
+.footnote[
+
+[Source](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects) &amp; Artwork [Source](https://www.allisonhorst.com/) 
+
+]
+
+---
+
+class: center, middle, hide-logo, hide-count
+
+# 🔥 Create RStudio Project in 4 Steps 🔥
+
+---
+class: center, middle
+
+# Create RStudio Project in 4 Steps
+
+&lt;img src="images/rstd-proj-1.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+---
+class: center, middle
+
+# Create RStudio Project in 4 Steps
+
+&lt;img src="images/rstd-proj-2.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+---
+class: center, middle
+
+# Create RStudio Project in 4 Steps
+
+&lt;img src="images/rstd-proj-3.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+---
+class: center, middle
+
+# Create RStudio Project in 4 Steps
+
+&lt;img src="images/rstd-proj-4.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center
+
+# Open RStudio Project
+
+&lt;img src="images/rstd-project-name.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center
+
+# Open RStudio Project
+
+&lt;img src="images/rstd-project-path.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center
+
+# Open RStudio Project
+
+&lt;img src="images/rstd-project-path2.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: hide-count, middle, left, hide-logo
+
+background-image: url("images/logo-rmd.png")
+background-size: contain
+background-position: right
+
+# .big-text[R&lt;br&gt;Package]
+
+---
+
+# About R Markdown:
+
+- "You bring your data, code, and ideas, and R Markdown renders your content into a polished document that can be used to:
+
+--
+
+  - Do data science interactively within the RStudio IDE,
+
+--
+
+  - Reproduce your analyses,
+
+--
+
+  - Collaborate and share code with others, and
+
+--
+
+  - Communicate your results with others."
+
+.footnote[
+[Source](https://github.com/rstudio/rmarkdown)
+]
+
+---
+
+class: middle, center, hide-logo, hide-count
+
+&lt;iframe src="https://player.vimeo.com/video/178485416?color=428bca" width="840" height="500" frameborder="0" allow="autoplay; fullscreen" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/178485416"&gt;What is R Markdown?&lt;/a&gt; from &lt;a href="https://vimeo.com/rstudioinc"&gt;RStudio, Inc.&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+---
+class: center, middle, hide-logo, hide-count
+
+# 🔥How to create R Markdown file?🔥
+
+---
+
+class: center
+
+# File `\(\rightarrow\)` New File `\(\rightarrow\)` R Markdown
+
+&lt;img src="images/script-new.png" width="78%" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center
+
+# R Markdown
+
+&lt;img src="images/script-options.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center
+
+# R Markdown
+
+&lt;img src="images/script-options1.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center
+
+# R Markdown
+
+&lt;img src="images/script-options2.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center
+
+# R Markdown
+
+&lt;img src="images/script-options3.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center
+
+# Save your .Rmd file
+
+&lt;img src="images/script-save.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center
+
+# Name your .Rmd file
+
+&lt;img src="images/script-title.png" width="85%" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center
+
+# Name your .Rmd file
+
+&lt;img src="images/script-title1.png" width="85%" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center
+
+# Save your .Rmd file
+
+&lt;img src="images/script-title2.png" width="85%" style="display: block; margin: auto;" /&gt;
+
+
+---
+
+class: center
+
+# Saved .Rmd file `\(\rightarrow\)` in RStudio Project
+
+&lt;img src="images/script-saved.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+---
+
+exclude: true
+class: center
+
+background-image: url("images/script-to-console1.png")
+background-size: 70%
+background-position: center bottom
+
+# Script file for writing the codes 
+
+---
+
+exclude: true
+class: center
+
+background-image: url("images/script-to-console2.png")
+background-size: 70%
+background-position: center bottom
+
+# Console to process the codes 
+
+---
+
+exclude: true
+class: center
+
+background-image: url("images/script-to-console3.png")
+background-size: 70%
+background-position: center bottom
+
+# R Script `\(\rightarrow\)` Console `\(\rightarrow\)` Output
+
+---
+
+exclude: true
+class: center
+
+background-image: url("images/script-to-console4.png")
+background-size: 70%
+background-position: center bottom
+
+# R Script `\(\rightarrow\)` Console `\(\rightarrow\)` Output
+
+---
+class: center, middle
+
+.pull-left[
+&lt;img src="images/rmd-input.png" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+&lt;img src="images/rmd-output.png" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+background-image: url("images/knit-html.png")
+background-size: contain
+background-position: center middle
+
+---
+
+# R Markdown has 3 important parts:
+
+##- .purple[YAML]
+
+##- .orange[Code chunk]
+
+##- .blue[Text]
+
+---
+
+background-image: url("images/temp-yaml.png")
+background-size: cover
+background-position: left
+
+---
+
+background-image: url("images/temp-chunk.png")
+background-size: cover
+background-position: left
+
+---
+
+background-image: url("images/temp-text.png")
+background-size: cover
+background-position: left
+
+---
+
+# 🧶 Knit a R Markdown File
+
+- YAML options
+
+- Headings, subheadings, text &amp; maths equations
+
+- Code Chunk
+
+  - Include images
+
+  - Include tables
+  
+  - Include plot
+
+- Themes
+
+- Multiple Output Formats
+  
+- [eBook](https://bookdown.org/yihui/rmarkdown-cookbook/)
+
+---
+
+class: center middle hide-count
+
+#  🙋🏽‍♀️🙋‍♂️&lt;br&gt;.big-text[Q&amp;A]
+
+---
+
+class: center, middle, inverse
+
+# Dynamic Visualisation&lt;br&gt;Using ggplot2
+### .orange[Next Module - 3]
+
+---
+
+# Modules:
+
+1. [Basics of R &amp; RStudio](#module1)
+
+1. [Dynamic Documents using R Markdown](#module2)
+
+1. .b[[Data Visualisation using ggplot2](#module3)]
+
+1. [Data Wrangling using dplyr](#module4)
+
+1. [Slide Crafting using xaringan](#module5)
+
+---
+
+name: module3
 
 class: title-slide, center, middle, hide-count, hide-logo
 
 background-image: url("https://images.unsplash.com/photo-1617164924207-40e6ee7c3ffe?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1740&amp;q=80")
 background-size: cover
 
-# .white.big-text[Dynamic Documents]
+# .white.big-text[Data Visualisation]
 ## .white[Session - 3]
 
+.footnote[
+.white[Image credits:][Kayvan Mazhar](https://unsplash.com/photos/SfxhjdST3Qs)
+]
+
 ---
-name: session4
+
+class: hide-logo, center
+
+&lt;iframe width="960" height="615" src="https://www.youtube.com/embed/Jp_Ep1RiAtk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+---
+
+class: center
+
+# Course Progress
+
+&lt;img src="images/data-science-communicate.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: left, middle, hide-count, hide-logo
+
+background-image: url("images/not_normal.png")
+background-size: 70%
+background-position: right
+
+# .big-text[Data]
+
+.footnote[
+[Artwork Source](https://www.allisonhorst.com/)
+]
+
+---
+
+# Variable types in R:
+
+--
+
+- `int` stands for integers, like 4, 55, 300.
+
+--
+
+- `dbl` stands for doubles, or real numbers like 3, 7.45, 1.565, 12.
+
+--
+
+- `chr` stands for character vectors, or strings like names.
+
+--
+
+- `dttm` stands for date-times (a date + a time).
+
+--
+
+- `lgl` stands for logical, vectors that contain only TRUE or FALSE.
+
+--
+
+- `fct` stands for factors, which R uses to represent **categorical variables** with fixed possible values like occupation: student, professional, government, business.
+
+--
+
+- `date` stands for dates.
+
+---
+
+class: hide-logo
+
+background-image: url("images/culmen_depth.png")
+background-size: 25%
+background-position: 95% 5%
+
+# Data of Palmer Penguins
+
+- It comes with R package `palmerpenguins`
+
+--
+
+- Name of the data is `penguins`
+
+--
+
+- To know more about the data `?penguins`
+
+--
+
+- Included variables are:
+  - species, island, bill_length_mm, bill_depth_mm, flipper_length_mm, body_mass_g, sex, year
+
+
+.footnote[
+[Artwork Source](https://www.allisonhorst.com/)
+]
+
+
+---
+
+# An Overview of Data
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+*glimpse(penguins)
+```
+
+]
+
+.panel[.panel-name[Output]
+
+
+```
+## Rows: 344
+## Columns: 8
+## $ species           &lt;fct&gt; Adelie, Adelie, Adelie, Adelie, Adelie…
+## $ island            &lt;fct&gt; Torgersen, Torgersen, Torgersen, Torge…
+## $ bill_length_mm    &lt;dbl&gt; 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9…
+## $ bill_depth_mm     &lt;dbl&gt; 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8…
+## $ flipper_length_mm &lt;int&gt; 181, 186, 195, NA, 193, 190, 181, 195,…
+## $ body_mass_g       &lt;int&gt; 3750, 3800, 3250, NA, 3450, 3650, 3625…
+## $ sex               &lt;fct&gt; male, female, female, NA, female, male…
+## $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 20…
+```
+
+]
+]
+
+---
+
+### An Overview of Data
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+*summary(penguins)
+```
+
+]
+
+.panel[.panel-name[Output]
+
+
+```
+##       species          island    bill_length_mm  bill_depth_mm  
+##  Adelie   :152   Biscoe   :168   Min.   :32.10   Min.   :13.10  
+##  Chinstrap: 68   Dream    :124   1st Qu.:39.23   1st Qu.:15.60  
+##  Gentoo   :124   Torgersen: 52   Median :44.45   Median :17.30  
+##                                  Mean   :43.92   Mean   :17.15  
+##                                  3rd Qu.:48.50   3rd Qu.:18.70  
+##                                  Max.   :59.60   Max.   :21.50  
+##                                  NA's   :2       NA's   :2      
+##  flipper_length_mm  body_mass_g       sex           year     
+##  Min.   :172.0     Min.   :2700   female:165   Min.   :2007  
+##  1st Qu.:190.0     1st Qu.:3550   male  :168   1st Qu.:2007  
+##  Median :197.0     Median :4050   NA's  : 11   Median :2008  
+##  Mean   :200.9     Mean   :4202                Mean   :2008  
+##  3rd Qu.:213.0     3rd Qu.:4750                3rd Qu.:2009  
+##  Max.   :231.0     Max.   :6300                Max.   :2009  
+##  NA's   :2         NA's   :2
+```
+
+]
+]
+
+
+---
+
+# Packages required: 
+
+
+```r
+library(palmerpenguins) # to access penguin data
+library(tidyverse) # to use ggplot2 pkg
+```
+
+- Packages recommended:
+
+
+```r
+install.packages(c(
+  "directlabels", "dplyr", "gameofthrones", "ggforce", "gghighlight", 
+  "ggnewscale", "ggplot2", "ggraph", "ggrepel", "ggtext", "ggthemes", 
+  "hexbin", "mapproj", "maps", "munsell", "ozmaps", "paletteer", 
+  "patchwork", "rmapshaper", "scico", "seriation", "sf", "stars", 
+  "tidygraph", "tidyr", "wesanderson" 
+))
+```
+
+---
+
+class: left, middle, hide-count, hide-logo
+
+background-image: url("images/ggplot-logo.png")
+background-size: contain
+background-position: 100% 50%
+
+# .big-text[R&lt;br&gt;Package]
+
+---
+
+# ggplot2 by [Hadley Wickham](http://hadley.nz/)
+&lt;br&gt;
+- "is a system for declaratively creating graphics, based on [The Grammar of Graphics](https://www.springer.com/gp/book/9780387245447)" (book by Late Leland Wilkinson)
+
+.pull-left[
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="https://upload.wikimedia.org/wikipedia/en/b/b5/Leland_Wilkinson.png" alt="Late Leland Wilkinson" width="40%" /&gt;
+&lt;p class="caption"&gt;Late Leland Wilkinson&lt;/p&gt;
+&lt;/div&gt;
+]
+
+.pull-right[
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="images/hadley.jpg" alt="Hadley Wickham" width="58%" /&gt;
+&lt;p class="caption"&gt;Hadley Wickham&lt;/p&gt;
+&lt;/div&gt;
+]
+
+.footnote[
+[Source](https://ggplot2.tidyverse.org/)
+]
+
+---
+class: hide-count, hide-logo
+
+background-image: url("images/layer7.png")
+background-size: contain
+background-position: 50% 50%
+
+.footnote[
+[Source](https://www.ericchowkokyew.com/data-visualization-with-ggplot2-in-r/)
+]
+
+---
+
+# Key Components for ggplot2 Plot
+
+1. data,
+
+1. aesthetic mapping
+
+1. at least one layer of geom function
+
+---
+
+.panelset[
+
+.panel[.panel-name[Task]
+
+&lt;img src="images/layer1.png" width="45%" style="display: block; margin: auto;" /&gt;
+
+]
+
+.panel[.panel-name[Codes]
+
+
+```r
+*ggplot(data = penguins)
+```
+
+]
+
+.panel[.panel-name[Output]
+
+&lt;img src="index_files/figure-html/unnamed-chunk-67-1.png" width="504" style="display: block; margin: auto;" /&gt;
+
+]
+]
+
+---
+
+.panelset[
+
+.panel[.panel-name[Task]
+
+&lt;img src="images/layer2.png" width="45%" style="display: block; margin: auto;" /&gt;
+
+]
+
+.panel[.panel-name[Codes]
+
+
+```r
+*ggplot(data = penguins, mapping = aes(x = species))
+```
+
+]
+
+.panel[.panel-name[Output]
+
+&lt;img src="index_files/figure-html/unnamed-chunk-68-1.png" width="504" style="display: block; margin: auto;" /&gt;
+
+]
+]
+
+---
+
+.panelset[
+
+.panel[.panel-name[Task]
+
+&lt;img src="images/layer3.png" width="45%" style="display: block; margin: auto;" /&gt;
+
+]
+
+.panel[.panel-name[Codes]
+
+
+```r
+ggplot(data = penguins, mapping = aes(x = species)) +
+* geom_bar()
+```
+
+]
+
+.panel[.panel-name[Output]
+
+&lt;img src="index_files/figure-html/unnamed-chunk-69-1.png" width="504" style="display: block; margin: auto;" /&gt;
+
+]
+]
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+ggplot(penguins, aes(x = species)) +
+  geom_bar() 
+```
+
+]
+
+.panel[.panel-name[Output]
+
+&lt;img src="index_files/figure-html/unnamed-chunk-70-1.png" width="504" style="display: block; margin: auto;" /&gt;
+
+]
+]
+
+---
+
+class: your-turn, hide-logo
+
+# 🧠 YOUR TURN
+
+<div class="countdown" id="timer_61f6d79f" style="top:0;right:0;font-size:3em;" data-warnwhen="0">
+<code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+
+.panelset[
+
+.panel[.panel-name[Output]
+
+&lt;img src="index_files/figure-html/unnamed-chunk-72-1.png" width="38%" style="display: block; margin: auto;" /&gt;
+
+]
+
+.panel[.panel-name[Codes]
+
+
+```r
+ggplot(data = penguins, mapping = aes(x = island)) +
+  geom_bar() 
+```
+
+]
+]
+
+---
+
+class: center, middle
+
+# How to export plot to your computer?
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+ggplot(data = penguins, mapping = aes(x = species)) +
+  geom_bar() 
+
+*ggsave("peng-species.pdf")  # also try jpg/jpeg/png
+```
+
+]
+
+.panel[.panel-name[Output]
+
+&lt;img src="index_files/figure-html/unnamed-chunk-73-1.png" width="504" style="display: block; margin: auto;" /&gt;
+
+```
+## Saving 7 x 7 in image
+```
+
+]
+]
+
+---
+class: center, middle
+
+# How to add color to bars?
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+ggplot(data = penguins, mapping = aes(x = species)) +
+* geom_bar(fill = "blue")
+```
+
+]
+
+.panel[.panel-name[Output]
+
+&lt;img src="index_files/figure-html/unnamed-chunk-74-1.png" width="504" style="display: block; margin: auto;" /&gt;
+
+]
+]
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+ggplot(data = penguins, mapping = aes(x = species)) +
+* geom_bar(fill = c("orange", "white", "green"))
+
+# color names should be equal to the factor levels
+# in case of factor species levels are three
+# Adele, Chinstrap &amp; Gentoo
+```
+
+]
+
+.panel[.panel-name[Output]
+
+&lt;img src="index_files/figure-html/unnamed-chunk-75-1.png" width="504" style="display: block; margin: auto;" /&gt;
+
+]
+]
+
+---
+
+class: center, middle
+
+# How to add color using palette? 🎨
+
+---
+
+## 🎨 Color Palette
+
+- R package `RColorBrewer` &amp; `wesanderson`
+
+&lt;img src="index_files/figure-html/unnamed-chunk-76-1.png" width="1224" style="display: block; margin: auto;" /&gt;
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+library(RColorBrewer)
+
+ggplot(data = penguins,
+       mapping = aes(x = species,
+*                    fill = species)) +
+  geom_bar() +
+* scale_fill_brewer(palette = "Dark2")
+
+```
+
+]
+
+.panel[.panel-name[Output]
+
+&lt;img src="index_files/figure-html/unnamed-chunk-77-1.png" width="504" style="display: block; margin: auto;" /&gt;
+
+]
+]
+
+---
+
+class: center, middle
+
+# How to remove legend or change its position?
+
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+ggplot(data = penguins,
+       mapping = aes(x = species,
+                     fill = species)) + 
+  geom_bar() +
+  scale_fill_brewer(palette = "Dark2") +
+  theme(legend.position = "none") # top, bottom, left
+
+```
+
+]
+
+.panel[.panel-name[Output]
+
+&lt;img src="index_files/figure-html/unnamed-chunk-78-1.png" width="504" style="display: block; margin: auto;" /&gt;
+
+]
+]
+
+---
+
+class: center, middle
+
+# How to plot title and axis titles?
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+ggplot(data = penguins,
+       mapping = aes(x = species,
+                     fill = species)) +
+  geom_bar() +
+  scale_fill_brewer(palette = "Dark2") +
+  theme(legend.position = "none") +
+  labs(
+    title = "Species of palmer penguins",
+    subtitle = "This data is about penguins",
+    x = "Species",
+    y = "Frequency"
+  )
+
+```
+
+]
+
+.panel[.panel-name[Output]
+
+&lt;img src="index_files/figure-html/unnamed-chunk-79-1.png" width="504" style="display: block; margin: auto;" /&gt;
+
+]
+]
+
+---
+
+class: center, middle
+
+# How to control size of text?
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+ggplot(data = penguins,
+       mapping = aes(x = species,
+                     fill = species)) +
+  geom_bar() +
+  scale_fill_brewer(palette = "Dark2") +
+  theme(legend.position = "none",
+*       text = element_text(size = 20)) +
+  labs(
+    title = "Species of palmer penguins",
+    subtitle = "This data is about penguins",
+    x = "Species",
+    y = "Frequency"
+  )
+
+```
+
+]
+
+.panel[.panel-name[Output]
+
+&lt;img src="index_files/figure-html/unnamed-chunk-80-1.png" width="504" style="display: block; margin: auto;" /&gt;
+
+]
+]
+
+---
+
+class: center, middle
+
+# How to plot two numeric variables?
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+ggplot(data = penguins,
+       mapping = aes(x = bill_length_mm,
+                     y = bill_depth_mm,
+                     color = species)) +
+  geom_point() +
+  scale_fill_brewer(palette = "Dark2") +
+  theme(legend.position = "none",
+*       text = element_text(size = 20)) +
+  labs(
+    title = "Relationship between bill length \n&amp; depth of palmer penguins",
+    subtitle = "This data is about penguins",
+    x = "Bill length (mm)",
+    y = "Bith depth (mm)"
+  )
+
+```
+
+]
+
+.panel[.panel-name[Output]
+
+&lt;img src="index_files/figure-html/unnamed-chunk-81-1.png" width="504" style="display: block; margin: auto;" /&gt;
+
+]
+]
+
+---
+
+class: center, middle
+
+# How to add themes to ggplot?
+
+---
+
+# ggplot2 themes 
+
+&lt;https://ggplot2.tidyverse.org/reference/ggtheme.html&gt;
+
+- theme_gray()
+
+- theme_bw()
+
+- theme_linedraw()
+
+- theme_light()
+
+- theme_dark()
+
+- theme_minimal()
+
+- theme_classic()
+
+- theme_void()
+
+- theme_test()
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+ggplot(data = penguins,
+       mapping = aes(x = bill_length_mm,
+                     y = bill_depth_mm,
+                     color = species)) +
+  geom_point() +
+  scale_fill_brewer(palette = "Dark2") +
+  theme(legend.position = "none",
+        text = element_text(size = 20)) + 
+  labs(
+    title = "Relationship between bill length \n&amp; depth of palmer penguins",
+    subtitle = "This data is about penguins",
+    x = "Bill length (mm)",
+    y = "Bith depth (mm)"
+  ) +
+* theme_bw()
+
+```
+
+]
+
+.panel[.panel-name[Output]
+
+&lt;img src="index_files/figure-html/unnamed-chunk-82-1.png" width="504" style="display: block; margin: auto;" /&gt;
+
+]
+]
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+ggplot(data = penguins,
+       mapping = aes(x = bill_length_mm,
+                     y = bill_depth_mm,
+                     color = species)) +
+  geom_point() +
+  scale_fill_brewer(palette = "Dark2") +
+  theme(legend.position = "none",
+*       text = element_text(size = 20)) +
+  labs(
+    title = "Relationship between bill length \n&amp; depth of palmer penguins",
+    subtitle = "This data is about penguins",
+    x = "Bill length (mm)",
+    y = "Bith depth (mm)"
+  ) +
+  theme_classic()
+
+```
+
+]
+
+.panel[.panel-name[Output]
+
+&lt;img src="index_files/figure-html/unnamed-chunk-83-1.png" width="504" style="display: block; margin: auto;" /&gt;
+
+]
+]
+
+---
+
+class: center, middle
+
+# How to add regression line to ggplot?
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+ggplot(data = penguins,
+       mapping = aes(x = flipper_length_mm,
+                     y = body_mass_g)) +
+  geom_point() +
+  theme(legend.position = "none",
+        text = element_text(size = 24)) + 
+  labs(
+    title = "Relationship between bill length \n&amp; depth of palmer penguins",
+    subtitle = "This data is about penguins",
+    x = "Flipper length (mm)",
+    y = "Body mass (gm)"
+  ) +
+  theme_classic() +
+* geom_smooth()
+
+```
+
+]
+
+.panel[.panel-name[Output]
+
+&lt;img src="index_files/figure-html/unnamed-chunk-84-1.png" width="504" style="display: block; margin: auto;" /&gt;
+
+]
+]
+
+---
+
+# More resources
+
+- ggplot2 book https://ggplot2-book.org/
+
+- CÉDRIC SCHERER https://www.cedricscherer.com/
+
+- ggplot2 cook book http://www.cookbook-r.com/
+
+---
+
+class: center middle hide-count
+
+#  🙋🏽‍♀️🙋‍♂️&lt;br&gt;.big-text[Q&amp;A]
+
+---
+
+class: center, middle, inverse
+
+# Dynamic Wrangling&lt;br&gt;Using dplyr
+### .orange[Next Module - 4]
+
+---
+
+# Modules:
+
+1. [Basics of R &amp; RStudio](#module1)
+
+1. [Dynamic Documents using R Markdown](#module2)
+
+1. [Data Visualisation using ggplot2](#module3)
+
+1. .b[[Data Wrangling using dplyr](#module4)]
+
+1. [Slide Crafting using xaringan](#module5)
+
+---
+
+name: module4
 
 class: title-slide, right, middle, hide-count, hide-logo
 
@@ -167,19 +2671,1658 @@ background-size: cover
 &lt;br&gt;
 &lt;br&gt;
 
-# .white.big-text[Data&lt;br&gt;Wrangling]
-## .white[Session - 4]
+# .black.big-text[Data&lt;br&gt;Wrangling]
+## .black[Session - 4]
+
+.footnote[
+.white[Image credits:][Karina L](https://unsplash.com/photos/zJRQ5nngdPA)
+]
 
 ---
-name: session5
+
+class: hide-logo, center
+
+&lt;iframe width="960" height="615" src="https://www.youtube.com/embed/QGj8hEcDW0E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+---
+
+class: center
+
+# Course Progress
+
+&lt;img src="images/data-science-wrangle.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+# What is Data wrangling?
+
+--
+
+- "data exploration and data manipulation" [(Jesse Mostipak)](https://www.kaggle.com/jessemostipak/dive-into-dplyr-tutorial-1)
+
+--
+
+- "tidying and transforming" [(Hadley &amp; Garrett)](https://r4ds.had.co.nz/index.html)
+
+--
+
+&lt;img src="images/tidy-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+# "Transforming" data means:
+
+- "narrowing in on observations of interest ... 
+
+--
+
+- creating new variables that are functions of existing variables ... and
+
+--
+
+- calculating a set of summary statistics." 
+
+.footnote[[Source](https://r4ds.had.co.nz/index.html)]
+
+---
+
+class: hide-count, middle, hide-logo
+background-image: url(images/dplyr.svg)
+background-size: contain
+background-position: right
+
+# .big-text[R&lt;br&gt;Package]
+
+---
+
+# `dplyr` package
+
+- "dplyr is a grammar of data manipulation"
+
+--
+
+- "providing a consistent set of verbs that help you solve the most common data manipulation challenges:"
+
+--
+
+- Few important functions:
+  - `filter()` 
+  - `select()` 
+  - `mutate()` 
+  - `arrange()` 
+  - `summarise()`
+
+.footnote[
+[Source](https://dplyr.tidyverse.org/)
+]
+
+---
+
+# `filter()` function: 
+
+- Picks cases based on their values.
+
+&lt;img src="images/01-filter.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center, middle 
+
+# How to have a data of only Gentoo penguins?
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+# there are three species: Chinstrap, Gentoo, Adelie
+penguins %&gt;% 
+* filter(species == "Gentoo")
+```
+]
+
+.panel[.panel-name[Output]
+
+
+```
+## # A tibble: 124 × 8
+##    species island bill_length_mm bill_depth_mm flipper_length_mm
+##    &lt;fct&gt;   &lt;fct&gt;           &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;
+##  1 Gentoo  Biscoe           46.1          13.2               211
+##  2 Gentoo  Biscoe           50            16.3               230
+##  3 Gentoo  Biscoe           48.7          14.1               210
+##  4 Gentoo  Biscoe           50            15.2               218
+##  5 Gentoo  Biscoe           47.6          14.5               215
+##  6 Gentoo  Biscoe           46.5          13.5               210
+##  7 Gentoo  Biscoe           45.4          14.6               211
+##  8 Gentoo  Biscoe           46.7          15.3               219
+##  9 Gentoo  Biscoe           43.3          13.4               209
+## 10 Gentoo  Biscoe           46.8          15.4               215
+## # … with 114 more rows, and 3 more variables: body_mass_g &lt;int&gt;,
+## #   sex &lt;fct&gt;, year &lt;int&gt;
+```
+
+]
+]
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+# there are three species: Chinstrap, Gentoo, Adelie
+
+praw &lt;- read_csv("data/gentoo-penguins1.csv")
+
+praw %&gt;% 
+  filter(species == "Gentoo") %&gt;% 
+  summary() %&gt;% 
+  kableExtra::kable()
+```
+]
+
+.panel[.panel-name[Output]
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt;   &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt;   species &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt;    island &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; bill_length_mm &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; bill_depth_mm &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; flipper_length_mm &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt;  body_mass_g &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt;     sex &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt;      year &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Length:124 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Length:124 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Min.   :40.90 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Min.   :13.10 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Min.   :203.0 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Min.   :3950 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Length:124 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Min.   :2007 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Class :character &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Class :character &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1st Qu.:45.30 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1st Qu.:14.20 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1st Qu.:212.0 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1st Qu.:4500 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Class :character &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1st Qu.:2007 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Mode  :character &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Mode  :character &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Median :47.30 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Median :15.00 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Median :216.0 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Median :4925 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Mode  :character &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Median :2008 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Mean   :47.50 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Mean   :14.98 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Mean   :217.2 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Mean   :4985 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Mean   :2008 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 3rd Qu.:49.55 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 3rd Qu.:15.70 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 3rd Qu.:221.0 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 3rd Qu.:5400 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 3rd Qu.:2009 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Max.   :59.60 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Max.   :17.30 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Max.   :231.0 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Max.   :6050 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Max.   :2009 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA's   :1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA's   :1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA's   :1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA's   :1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+]
+]
+
+---
+
+class: center, middle
+
+# How to export data file to your computer?
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+# three species are Chinstrap, Gentoo, Adelie
+penguins %&gt;% 
+  filter(species == "Gentoo") %&gt;% 
+* write_csv("data/gentoo-penguins.csv")
+
+```
+]
+
+.panel[.panel-name[Output]
+
+
+
+]
+]
+
+---
+
+# ✋ WAIT! What is `%&gt;% `
+
+--
+
+- this is called **pipe** ( `%&gt;%` = control + shift + m)
+
+--
+
+- "a powerful tool for clearly expressing a sequence of **multiple operations**"
+
+--
+
+- interpret/read it as **then**.
+
+
+```r
+penguins %&gt;% 
+  filter(species == "Gentoo") %&gt;% 
+  summary() %&gt;% 
+  kableExtra::kable()
+```
+
+---
+
+# Comparison: Relational Operators
+
+`x &lt; y`
+
+--
+
+`x &gt; y`
+
+--
+
+`x &lt;= y`
+
+--
+
+`x &gt;= y`
+
+--
+
+`x == y` (equal)
+
+--
+
+`x != y` (not equal)
+
+---
+class: center, middle 
+
+# How to have a data of penguins with bill length more than 43 mm?
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+penguins %&gt;% 
+  filter(bill_length_mm &gt; 43) 
+```
+]
+
+.panel[.panel-name[Output]
+
+
+```
+## # A tibble: 188 × 8
+##    species island    bill_length_mm bill_depth_mm flipper_length_…
+##    &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;            &lt;int&gt;
+##  1 Adelie  Torgersen           46            21.5              194
+##  2 Adelie  Dream               44.1          19.7              196
+##  3 Adelie  Torgersen           45.8          18.9              197
+##  4 Adelie  Dream               43.2          18.5              192
+##  5 Adelie  Biscoe              43.2          19                197
+##  6 Adelie  Biscoe              45.6          20.3              191
+##  7 Adelie  Torgersen           44.1          18                210
+##  8 Adelie  Torgersen           43.1          19.2              197
+##  9 Gentoo  Biscoe              46.1          13.2              211
+## 10 Gentoo  Biscoe              50            16.3              230
+## # … with 178 more rows, and 3 more variables: body_mass_g &lt;int&gt;,
+## #   sex &lt;fct&gt;, year &lt;int&gt;
+```
+
+]
+]
+
+---
+class: center, middle 
+
+# How to have a data of Gentoo penguins with bill length more than 50 mm?
+
+---
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+penguins %&gt;% 
+  filter(species == "Gentoo",
+         bill_length_mm &gt; 55)
+```
+]
+
+.panel[.panel-name[Output]
+
+
+```
+## # A tibble: 3 × 8
+##   species island bill_length_mm bill_depth_mm flipper_length_mm
+##   &lt;fct&gt;   &lt;fct&gt;           &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;
+## 1 Gentoo  Biscoe           59.6            17               230
+## 2 Gentoo  Biscoe           55.9            17               228
+## 3 Gentoo  Biscoe           55.1            16               230
+## # … with 3 more variables: body_mass_g &lt;int&gt;, sex &lt;fct&gt;,
+## #   year &lt;int&gt;
+```
+
+]
+]
+
+---
+class: center, middle 
+
+# How to have data of non-Gentoo penguins with bill length more than 45 mm and weight more than 4 kg?
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+penguins %&gt;% 
+  filter(species != "Gentoo",
+         bill_length_mm &gt; 45,
+         body_mass_g &gt; 4000)
+```
+]
+
+.panel[.panel-name[Output]
+
+
+```
+## # A tibble: 18 × 8
+##    species   island  bill_length_mm bill_depth_mm flipper_length_…
+##    &lt;fct&gt;     &lt;fct&gt;            &lt;dbl&gt;         &lt;dbl&gt;            &lt;int&gt;
+##  1 Adelie    Torger…           46            21.5              194
+##  2 Adelie    Torger…           45.8          18.9              197
+##  3 Adelie    Biscoe            45.6          20.3              191
+##  4 Chinstrap Dream             46            18.9              195
+##  5 Chinstrap Dream             52            18.1              201
+##  6 Chinstrap Dream             50.5          19.6              201
+##  7 Chinstrap Dream             49.2          18.2              195
+##  8 Chinstrap Dream             52            19                197
+##  9 Chinstrap Dream             52.8          20                205
+## 10 Chinstrap Dream             54.2          20.8              201
+## 11 Chinstrap Dream             51            18.8              203
+## 12 Chinstrap Dream             52            20.7              210
+## 13 Chinstrap Dream             53.5          19.9              205
+## 14 Chinstrap Dream             50.8          18.5              201
+## 15 Chinstrap Dream             49            19.6              212
+## 16 Chinstrap Dream             50.7          19.7              203
+## 17 Chinstrap Dream             49.3          19.9              203
+## 18 Chinstrap Dream             50.8          19                210
+## # … with 3 more variables: body_mass_g &lt;int&gt;, sex &lt;fct&gt;,
+## #   year &lt;int&gt;
+```
+
+]
+]
+
+---
+class: center, middle
+
+# How to have only top or bottom rows from data?
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+penguins %&gt;% 
+  filter(species != "Gentoo",
+         bill_length_mm &gt; 45,
+         body_mass_g &gt; 4000) %&gt;% 
+* head()
+```
+]
+
+.panel[.panel-name[Output]
+
+
+```
+## # A tibble: 6 × 8
+##   species   island   bill_length_mm bill_depth_mm flipper_length_…
+##   &lt;fct&gt;     &lt;fct&gt;             &lt;dbl&gt;         &lt;dbl&gt;            &lt;int&gt;
+## 1 Adelie    Torgers…           46            21.5              194
+## 2 Adelie    Torgers…           45.8          18.9              197
+## 3 Adelie    Biscoe             45.6          20.3              191
+## 4 Chinstrap Dream              46            18.9              195
+## 5 Chinstrap Dream              52            18.1              201
+## 6 Chinstrap Dream              50.5          19.6              201
+## # … with 3 more variables: body_mass_g &lt;int&gt;, sex &lt;fct&gt;,
+## #   year &lt;int&gt;
+```
+
+]
+]
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+penguins %&gt;% 
+  filter(species != "Gentoo",
+         bill_length_mm &gt; 45,
+         body_mass_g &gt; 4000) %&gt;% 
+* tail(3)
+```
+]
+
+.panel[.panel-name[Output]
+
+
+```
+## # A tibble: 3 × 8
+##   species   island bill_length_mm bill_depth_mm flipper_length_mm
+##   &lt;fct&gt;     &lt;fct&gt;           &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;
+## 1 Chinstrap Dream            50.7          19.7               203
+## 2 Chinstrap Dream            49.3          19.9               203
+## 3 Chinstrap Dream            50.8          19                 210
+## # … with 3 more variables: body_mass_g &lt;int&gt;, sex &lt;fct&gt;,
+## #   year &lt;int&gt;
+```
+
+]
+]
+
+---
+
+class: your-turn, hide-logo
+
+# 🧠 YOUR TURN
+
+
+<div class="countdown" id="timer_61f6d815" style="top:0;right:0;font-size:3em;" data-warnwhen="0">
+<code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+
+.panelset[
+
+.panel[.panel-name[Task]
+
+How many Chinstrap penguins are with bill length more than 45 mm and weight more than 4 kg?
+]
+
+.panel[.panel-name[Codes]
+
+
+```r
+penguins %&gt;% 
+  filter(species == "Chinstrap",
+         bill_length_mm &gt; 45,
+         body_mass_g &gt; 4000) %&gt;% 
+  head()
+```
+
+]
+
+.panel[.panel-name[Output]
+
+
+```
+## # A tibble: 6 × 8
+##   species   island bill_length_mm bill_depth_mm flipper_length_mm
+##   &lt;fct&gt;     &lt;fct&gt;           &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;
+## 1 Chinstrap Dream            46            18.9               195
+## 2 Chinstrap Dream            52            18.1               201
+## 3 Chinstrap Dream            50.5          19.6               201
+## 4 Chinstrap Dream            49.2          18.2               195
+## 5 Chinstrap Dream            52            19                 197
+## 6 Chinstrap Dream            52.8          20                 205
+## # … with 3 more variables: body_mass_g &lt;int&gt;, sex &lt;fct&gt;,
+## #   year &lt;int&gt;
+```
+
+]
+]
+
+---
+
+# `select()` function: Chooses rows based on column values.
+
+&lt;img src="images/03-select.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+---
+class: center, middle
+
+# How to have only `species` variable in data?
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+penguins %&gt;% 
+* select(species)
+```
+]
+
+.panel[.panel-name[Output]
+
+
+```
+## # A tibble: 344 × 1
+##    species
+##    &lt;fct&gt;  
+##  1 Adelie 
+##  2 Adelie 
+##  3 Adelie 
+##  4 Adelie 
+##  5 Adelie 
+##  6 Adelie 
+##  7 Adelie 
+##  8 Adelie 
+##  9 Adelie 
+## 10 Adelie 
+## # … with 334 more rows
+```
+
+]
+]
+
+---
+class: center, middle
+
+# How to have a specific range of variables in data?
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+penguins %&gt;% 
+  select(species : bill_depth_mm)
+```
+]
+
+.panel[.panel-name[Output]
+
+
+```
+## # A tibble: 344 × 4
+##    species island    bill_length_mm bill_depth_mm
+##    &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;
+##  1 Adelie  Torgersen           39.1          18.7
+##  2 Adelie  Torgersen           39.5          17.4
+##  3 Adelie  Torgersen           40.3          18  
+##  4 Adelie  Torgersen           NA            NA  
+##  5 Adelie  Torgersen           36.7          19.3
+##  6 Adelie  Torgersen           39.3          20.6
+##  7 Adelie  Torgersen           38.9          17.8
+##  8 Adelie  Torgersen           39.2          19.6
+##  9 Adelie  Torgersen           34.1          18.1
+## 10 Adelie  Torgersen           42            20.2
+## # … with 334 more rows
+```
+
+]
+]
+
+---
+class: center, middle
+
+# How to have variables based upon their location in data?
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+penguins %&gt;% 
+  select(4:8)
+```
+]
+
+.panel[.panel-name[Output]
+
+
+```
+## # A tibble: 344 × 5
+##    bill_depth_mm flipper_length_mm body_mass_g sex     year
+##            &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt; &lt;fct&gt;  &lt;int&gt;
+##  1          18.7               181        3750 male    2007
+##  2          17.4               186        3800 female  2007
+##  3          18                 195        3250 female  2007
+##  4          NA                  NA          NA &lt;NA&gt;    2007
+##  5          19.3               193        3450 female  2007
+##  6          20.6               190        3650 male    2007
+##  7          17.8               181        3625 female  2007
+##  8          19.6               195        4675 male    2007
+##  9          18.1               193        3475 &lt;NA&gt;    2007
+## 10          20.2               190        4250 &lt;NA&gt;    2007
+## # … with 334 more rows
+```
+
+]
+]
+
+---
+class: center, middle
+
+# How to have specific variables in data?
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+penguins %&gt;% 
+  select(species, body_mass_g, year)
+```
+]
+
+.panel[.panel-name[Output]
+
+
+```
+## # A tibble: 344 × 3
+##    species body_mass_g  year
+##    &lt;fct&gt;         &lt;int&gt; &lt;int&gt;
+##  1 Adelie         3750  2007
+##  2 Adelie         3800  2007
+##  3 Adelie         3250  2007
+##  4 Adelie           NA  2007
+##  5 Adelie         3450  2007
+##  6 Adelie         3650  2007
+##  7 Adelie         3625  2007
+##  8 Adelie         4675  2007
+##  9 Adelie         3475  2007
+## 10 Adelie         4250  2007
+## # … with 334 more rows
+```
+
+]
+]
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+penguins %&gt;% 
+  select(-c(species, body_mass_g, year))
+```
+]
+
+.panel[.panel-name[Output]
+
+
+```
+## # A tibble: 344 × 5
+##    island    bill_length_mm bill_depth_mm flipper_length_mm sex   
+##    &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt; &lt;fct&gt; 
+##  1 Torgersen           39.1          18.7               181 male  
+##  2 Torgersen           39.5          17.4               186 female
+##  3 Torgersen           40.3          18                 195 female
+##  4 Torgersen           NA            NA                  NA &lt;NA&gt;  
+##  5 Torgersen           36.7          19.3               193 female
+##  6 Torgersen           39.3          20.6               190 male  
+##  7 Torgersen           38.9          17.8               181 female
+##  8 Torgersen           39.2          19.6               195 male  
+##  9 Torgersen           34.1          18.1               193 &lt;NA&gt;  
+## 10 Torgersen           42            20.2               190 &lt;NA&gt;  
+## # … with 334 more rows
+```
+
+]
+]
+
+---
+
+# `mutate()` function: Adds new variables that are functions of existing variables
+
+&lt;img src="images/04-mutate.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center, middle
+
+# How to convert penguin body mass from grams to kilograms?
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+penguins %&gt;% 
+* mutate(body_mass_kg = body_mass_g / 1000)
+```
+]
+
+.panel[.panel-name[Output]
+
+
+```
+## # A tibble: 344 × 9
+##    species island    bill_length_mm bill_depth_mm flipper_length_…
+##    &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;            &lt;int&gt;
+##  1 Adelie  Torgersen           39.1          18.7              181
+##  2 Adelie  Torgersen           39.5          17.4              186
+##  3 Adelie  Torgersen           40.3          18                195
+##  4 Adelie  Torgersen           NA            NA                 NA
+##  5 Adelie  Torgersen           36.7          19.3              193
+##  6 Adelie  Torgersen           39.3          20.6              190
+##  7 Adelie  Torgersen           38.9          17.8              181
+##  8 Adelie  Torgersen           39.2          19.6              195
+##  9 Adelie  Torgersen           34.1          18.1              193
+## 10 Adelie  Torgersen           42            20.2              190
+## # … with 334 more rows, and 4 more variables: body_mass_g &lt;int&gt;,
+## #   sex &lt;fct&gt;, year &lt;int&gt;, body_mass_kg &lt;dbl&gt;
+```
+
+]
+]
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+penguins %&gt;% 
+  select(body_mass_g) %&gt;%
+  mutate(body_mass_kg = body_mass_g / 1000)
+```
+]
+
+.panel[.panel-name[Output]
+
+
+```
+## # A tibble: 344 × 2
+##    body_mass_g body_mass_kg
+##          &lt;int&gt;        &lt;dbl&gt;
+##  1        3750         3.75
+##  2        3800         3.8 
+##  3        3250         3.25
+##  4          NA        NA   
+##  5        3450         3.45
+##  6        3650         3.65
+##  7        3625         3.62
+##  8        4675         4.68
+##  9        3475         3.48
+## 10        4250         4.25
+## # … with 334 more rows
+```
+
+]
+]
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+penguins %&gt;% 
+  mutate(body_mass_kg = body_mass_g / 1000, 
+         bill = bill_length_mm * bill_depth_mm)
+```
+]
+
+.panel[.panel-name[Output]
+
+
+```
+## # A tibble: 344 × 10
+##    species island    bill_length_mm bill_depth_mm flipper_length_…
+##    &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;            &lt;int&gt;
+##  1 Adelie  Torgersen           39.1          18.7              181
+##  2 Adelie  Torgersen           39.5          17.4              186
+##  3 Adelie  Torgersen           40.3          18                195
+##  4 Adelie  Torgersen           NA            NA                 NA
+##  5 Adelie  Torgersen           36.7          19.3              193
+##  6 Adelie  Torgersen           39.3          20.6              190
+##  7 Adelie  Torgersen           38.9          17.8              181
+##  8 Adelie  Torgersen           39.2          19.6              195
+##  9 Adelie  Torgersen           34.1          18.1              193
+## 10 Adelie  Torgersen           42            20.2              190
+## # … with 334 more rows, and 5 more variables: body_mass_g &lt;int&gt;,
+## #   sex &lt;fct&gt;, year &lt;int&gt;, body_mass_kg &lt;dbl&gt;, bill &lt;dbl&gt;
+```
+
+]
+]
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+penguins %&gt;% 
+  mutate(body_mass_kg = body_mass_g / 1000,
+         bill = bill_length_mm * bill_depth_mm) %&gt;% 
+  select(body_mass_kg,
+         bill)
+```
+]
+
+.panel[.panel-name[Output]
+
+
+```
+## # A tibble: 344 × 2
+##    body_mass_kg  bill
+##           &lt;dbl&gt; &lt;dbl&gt;
+##  1         3.75  731.
+##  2         3.8   687.
+##  3         3.25  725.
+##  4        NA      NA 
+##  5         3.45  708.
+##  6         3.65  810.
+##  7         3.62  692.
+##  8         4.68  768.
+##  9         3.48  617.
+## 10         4.25  848.
+## # … with 334 more rows
+```
+
+]
+]
+
+---
+
+# `arrange()` function: Changes the order of the rows.
+
+&lt;img src="images/02-arrange.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center, middle
+
+# How to have data arranged by the ascending order of bill length of penguins?
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+penguins %&gt;% 
+* arrange(bill_length_mm)
+```
+]
+
+.panel[.panel-name[Output]
+
+
+```
+## # A tibble: 344 × 8
+##    species island    bill_length_mm bill_depth_mm flipper_length_…
+##    &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;            &lt;int&gt;
+##  1 Adelie  Dream               32.1          15.5              188
+##  2 Adelie  Dream               33.1          16.1              178
+##  3 Adelie  Torgersen           33.5          19                190
+##  4 Adelie  Dream               34            17.1              185
+##  5 Adelie  Torgersen           34.1          18.1              193
+##  6 Adelie  Torgersen           34.4          18.4              184
+##  7 Adelie  Biscoe              34.5          18.1              187
+##  8 Adelie  Torgersen           34.6          21.1              198
+##  9 Adelie  Torgersen           34.6          17.2              189
+## 10 Adelie  Biscoe              35            17.9              190
+## # … with 334 more rows, and 3 more variables: body_mass_g &lt;int&gt;,
+## #   sex &lt;fct&gt;, year &lt;int&gt;
+```
+
+]
+]
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+penguins %&gt;% 
+* arrange(desc(bill_length_mm))
+```
+]
+
+.panel[.panel-name[Output]
+
+
+```
+## # A tibble: 344 × 8
+##    species   island bill_length_mm bill_depth_mm flipper_length_mm
+##    &lt;fct&gt;     &lt;fct&gt;           &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;
+##  1 Gentoo    Biscoe           59.6          17                 230
+##  2 Chinstrap Dream            58            17.8               181
+##  3 Gentoo    Biscoe           55.9          17                 228
+##  4 Chinstrap Dream            55.8          19.8               207
+##  5 Gentoo    Biscoe           55.1          16                 230
+##  6 Gentoo    Biscoe           54.3          15.7               231
+##  7 Chinstrap Dream            54.2          20.8               201
+##  8 Chinstrap Dream            53.5          19.9               205
+##  9 Gentoo    Biscoe           53.4          15.8               219
+## 10 Chinstrap Dream            52.8          20                 205
+## # … with 334 more rows, and 3 more variables: body_mass_g &lt;int&gt;,
+## #   sex &lt;fct&gt;, year &lt;int&gt;
+```
+
+]
+]
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+penguins %&gt;% 
+  arrange(species)
+```
+]
+
+.panel[.panel-name[Output]
+
+
+```
+## # A tibble: 344 × 8
+##    species island    bill_length_mm bill_depth_mm flipper_length_…
+##    &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;            &lt;int&gt;
+##  1 Adelie  Torgersen           39.1          18.7              181
+##  2 Adelie  Torgersen           39.5          17.4              186
+##  3 Adelie  Torgersen           40.3          18                195
+##  4 Adelie  Torgersen           NA            NA                 NA
+##  5 Adelie  Torgersen           36.7          19.3              193
+##  6 Adelie  Torgersen           39.3          20.6              190
+##  7 Adelie  Torgersen           38.9          17.8              181
+##  8 Adelie  Torgersen           39.2          19.6              195
+##  9 Adelie  Torgersen           34.1          18.1              193
+## 10 Adelie  Torgersen           42            20.2              190
+## # … with 334 more rows, and 3 more variables: body_mass_g &lt;int&gt;,
+## #   sex &lt;fct&gt;, year &lt;int&gt;
+```
+
+]
+]
+
+---
+
+class: center, middle, inverse
+
+# `summarise()` function
+
+---
+
+# `summarise()` function: Chooses rows based on column values.
+
+&lt;img src="images/05-summarise.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center, middle
+
+# How to find mean bill length of all penguins?
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+penguins %&gt;% 
+* drop_na() %&gt;%
+* summarise(mean_bill_length_mm = mean(bill_length_mm))
+```
+]
+
+.panel[.panel-name[Output]
+
+
+```
+## # A tibble: 1 × 1
+##   mean_bill_length_mm
+##                 &lt;dbl&gt;
+## 1                44.0
+```
+
+]
+]
+
+---
+
+class: center, middle
+
+# How to find species-wise mean bill length of penguins?
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+penguins %&gt;% 
+* drop_na() %&gt;%
+* group_by(species) %&gt;%
+  summarise(mean_bill_length_mm = mean(bill_length_mm))
+```
+]
+
+.panel[.panel-name[Output]
+
+
+```
+## # A tibble: 3 × 2
+##   species   mean_bill_length_mm
+##   &lt;fct&gt;                   &lt;dbl&gt;
+## 1 Adelie                   38.8
+## 2 Chinstrap                48.8
+## 3 Gentoo                   47.6
+```
+
+]
+]
+
+---
+
+class: center, middle
+
+# How to find species-wise mean bill length of penguins and total number of penguins in each species?
+
+---
+
+.panelset[
+
+.panel[.panel-name[Codes]
+
+
+```r
+penguins %&gt;% 
+  drop_na() %&gt;% 
+  group_by(species) %&gt;% 
+* summarise(mean_bill_length_mm = mean(bill_length_mm), n = n())
+```
+]
+
+.panel[.panel-name[Output]
+
+
+```
+## # A tibble: 3 × 3
+##   species   mean_bill_length_mm     n
+##   &lt;fct&gt;                   &lt;dbl&gt; &lt;int&gt;
+## 1 Adelie                   38.8   146
+## 2 Chinstrap                48.8    68
+## 3 Gentoo                   47.6   119
+```
+
+]
+]
+
+---
+
+class: center middle hide-count
+
+#  🙋🏽‍♀️🙋‍♂️&lt;br&gt;.big-text[Q&amp;A]
+
+---
+
+class: center, middle, inverse
+
+# Slide Crafting&lt;br&gt;using xaringan
+### .orange[Next Module - 5]
+
+---
+
+# Modules:
+
+1. [Basics of R &amp; RStudio](#module1)
+
+1. [Dynamic Documents using R Markdown](#module2)
+
+1. [Data Visualisation using ggplot2](#module3)
+
+1. [Data Wrangling using dplyr](#module4)
+
+1. .b[[Slide Crafting using xaringan](#module5)]
+
+---
+name: module5
 
 class: title-slide, left, middle, hide-count, hide-logo
 
 background-image: url("https://images.unsplash.com/photo-1638366271870-8b3d428f27f8?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1771&amp;q=80")
 background-size: cover
 
-# .big-text[Slide&lt;br&gt;Crafting]
-## Session - 5
+# .black.big-text[Slide&lt;br&gt;Crafting]
+## .black[Session - 5]
+
+.footnote[
+.white[Image credits:][Markus Spiske](https://images.unsplash.com/photo-1638366271870-8b3d428f27f8?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1742&amp;q=80)
+]
+
+---
+
+class: hide-count, center
+
+&lt;iframe width="960" height="615" src="https://www.youtube.com/embed/qmoZnf_3mIk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+---
+
+class: hide-count, middle, hide-logo
+
+background-image: url(images/xaringan-logo.png)
+background-size: contain
+background-position: right 
+
+# .big-text[R&lt;br&gt;Package]
+
+---
+
+# xaringan
+
+- xaringan package to be a Presentation Ninja 🤺
+
+--
+
+- "for creating slideshows with remark.js through R Markdown"
+
+--
+
+- [Xie Yihui](https://yihui.org/en/)
+
+&lt;img src="https://usesthis.com/images/interviews/yihui.xie/portrait.jpg" width="42%" style="display: block; margin: auto;" /&gt;
+
+.footnote[
+[Source](https://github.com/yihui/xaringan)
+]
+
+---
+
+# Packages required: 
+
+
+```r
+library(palmerpenguins) # to access penguin data
+
+library(xaringan)
+library(xaringanthemer)
+library(xaringanExtra)
+```
+
+---
+class: center
+
+# File `\(\longrightarrow\)` New File `\(\longrightarrow\)` R Markdown
+
+&lt;img src="images/rmd-new.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+
+---
+class: center
+
+# Template `\(\rightarrow\)` Ninja Presentation
+
+&lt;img src="images/xar1.png" width="55%" style="display: block; margin: auto;" /&gt;
+
+---
+class: center
+
+# Save this Rmd file
+
+&lt;img src="images/xar2.png" width="50%" style="display: block; margin: auto;" /&gt;
+
+---
+class: center
+
+.pull-left[
+### Addins `\(\rightarrow\)` Inifinite Moon Reader
+
+&lt;img src="images/xar3.png" width="65%" style="display: block; margin: auto;" /&gt;
+]
+
+--
+
+.pull-right[
+
+### xaringan output 
+
+&lt;img src="images/xar4.png" width="566" style="display: block; margin: auto;" /&gt;
+]
+
+---
+class: center
+
+.pull-left[
+### Addins `\(\rightarrow\)` Inifinite Moon Reader
+
+&lt;img src="images/xar3.png" width="65%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+
+### xaringan slide `\(\rightarrow\)` browser 
+
+&lt;img src="images/xar5-browser.png" width="566" style="display: block; margin: auto;" /&gt;
+]
+
+--
+
+- We need to click `Inifinite Moon Reader` only to start the slideshow. To see the changes made in the slides just save the document `ctrl + s`
+
+---
+
+# Using xaringan how to:
+
+--
+
+1. create a new slide
+
+--
+
+1. hide an existing slide
+
+--
+
+1. heading, subheadings, points and normal text
+
+--
+
+1. include images
+
+--
+    - as background
+--
+    - as part of slide
+--
+
+1. make plots
+
+--
+
+1. include tables
+
+--
+
+1. in-text R output
+
+--
+
+1. create columns
+
+---
+
+1. Use `---` to create a new slide
+
+--
+
+1. `exclude:true` To hide an existing slide
+
+--
+
+1. Slide text sizes:
+
+--
+
+  - `#` for main heading
+
+--
+
+  - `##` for sub-heading
+
+--
+
+  - `####` for sub-sub-heading
+
+--
+
+  * indented `*` for sub-point1
+  * indented `*` for sub-point2
+  * indented `*` for sub-point3
+
+--
+
+- `-` for normal text size
+
+---
+
+# To include images using:
+
+###  CSS `background` option:
+
+--
+
+- `background-image: url("path of the image")` = path of the image
+
+--
+
+- `background-size: contain, cover, 50%, 70%` = size of the image
+
+--
+
+- `background-position: left top` = position of the image
+
+---
+
+# To include images using:
+
+###  `knitr` chunk option:
+
+
+```r
+knitr::include_graphics("path of the image")
+```
+
+---
+
+# To include plots
+
+
+```r
+library(palmerpenguins)
+ggplot(penguins, aes(x = species)) +
+  geom_bar()
+```
+
+---
+
+# To include tables
+
+
+```r
+library(kableExtra)
+library(tidyverse)
+
+penguins %&gt;% 
+  drop_na() %&gt;% 
+  head() %&gt;% 
+  kable() 
+```
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; species &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; island &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; bill_length_mm &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; bill_depth_mm &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; flipper_length_mm &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; body_mass_g &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; sex &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; year &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Adelie &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Torgersen &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 39.1 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 18.7 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 181 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 3750 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; male &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2007 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Adelie &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Torgersen &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 39.5 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 17.4 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 186 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 3800 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; female &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2007 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Adelie &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Torgersen &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 40.3 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 18.0 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 195 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 3250 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; female &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2007 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Adelie &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Torgersen &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 36.7 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 19.3 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 193 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 3450 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; female &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2007 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Adelie &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Torgersen &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 39.3 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 20.6 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 190 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 3650 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; male &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2007 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Adelie &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Torgersen &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 38.9 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 17.8 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 181 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 3625 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; female &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2007 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+
+# In-text R output
+
+- penguins data have a sample of `\(n\)` = 344 on total 8 variables.
+
+--
+
+- math expressions 
+
+`\(a + b = \sigma - \sum{x}_2^2\)`
+
+---
+
+# Column division of slide
+
+
+
+.pull-left[
+##- left column
+
+- a
+
+  - b
+  - c
+]
+
+.pull-right[
+##- right column
+
+- apple
+- boy
+- cat
+]
+
+---
+
+# Slide `class`
+
+- class can be assigned to each slide
+
+--
+
+- it decides how all elements of one particular slide will look like
+
+---
+class: center
+
+# Slide `class`
+
+- class can be assigned to each slide
+
+- it decides how all elements of one particular slide will look like
+
+- `class: center`
+
+---
+
+class: center, middle, inverse, right
+
+# Slide `class`
+
+- class can be assigned to each slide
+
+- it decides how all elements of one particular slide will look like
+
+- `class: center, middle, inverse, right`
+
+---
+
+# Extend the power of xaringan:
+
+--
+
+- using R packages like [xaringanExtra](https://pkg.garrickadenbuie.com/xaringanExtra/#/README?id=xaringanextra)
+
+--
+
+- learn little about [CSS](https://www.w3schools.com/css/)
+
+--
+
+- use [cheatsheets](https://rstudio.com/resources/cheatsheets/)
+
+---
+
+class: hide-logo, hide-count, middle
+
+background-image: url("images/giphy.gif")
+background-position: 10%
+background-color: #353935
+background-size: 35%
+
+
+.pull-right[
+# .center.white[Congratulations!!! &lt;br&gt;&lt;br&gt;🎉 🥳 🎊&lt;br&gt;&lt;br&gt;Thank you]
+]
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
@@ -189,7 +4332,7 @@ background-size: cover
 "slideNumberFormat": "%current%/%total%",
 "highlightLines": true,
 "countIncrementalSlides": false,
-"ratio": "16:9"
+"ratio": "191:100"
 });
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));
