@@ -17,7 +17,7 @@ output:
       slideNumberFormat: "%current%/%total%" 
       highlightLines: true
       countIncrementalSlides: false
-      ratio: 191:100
+      ratio: 16:9
 ---
 
 ```{r setup, include=FALSE}
@@ -31,7 +31,7 @@ library(ymlthis)
 library(tidyverse)
 library(ggthemes)
 library(icons)
-library(icon)
+#library(icon)
 library(xaringanExtra)
 library(emoji)
 library(palmerpenguins)
@@ -84,7 +84,7 @@ background-size: cover
 ]
 
 ---
-class: middle, hide-logo
+class: middle
 
 .pull-left[
 ```{r , echo=FALSE, out.width="70%", fig.align='left'}
@@ -94,8 +94,8 @@ knitr::include_graphics("images/ajaykoli.png")
 # <i class="fab fa-r-project"></i>
 ```
 
-Dr Ajay Kumar Koli<br>Assistant Professor<br>Department of Travel & Tourism<br>Vishwakarma University - Pune<br>`r icon::fa("twitter")` [@ajay_kolii](https://twitter.com/ajay_kolii)<br>`r icon::fa("envelope")` [koliajaykumar@gmail.com](koliajaykumar@gmail.com)
-<br>`r icon::fa("globe")` [https://koliajay.netlify.app/](https://koliajay.netlify.app/)
+Dr Ajay Kumar Koli<br>Head & Educator<br>School of Information & Data Science<br>`r icons::fontawesome("briefcase")` [Nalanda Academy](https://nalanda-academy.org/) - Wardha<br>`r icons::fontawesome("twitter")` [@ajay_kolii](https://twitter.com/ajay_kolii)<br>`r icons::fontawesome("envelope")` [koliajaykumar@gmail.com](koliajaykumar@gmail.com)
+<br>`r icons::fontawesome("globe")` [https://koliajay.netlify.app/](https://koliajay.netlify.app/)
 ]
 
 .pull-right[
@@ -144,8 +144,6 @@ class: hide-logo, center
 <iframe width="960" height="615" src="https://www.youtube.com/embed/K9WeFAEPo6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
-
-class: hide-logo
 
 background-image: url("https://github.com/allisonhorst/stats-illustrations/raw/master/rstats-artwork/r_first_then.png")
 background-size: contain
@@ -669,8 +667,6 @@ knitr::include_graphics("images/rstd-options2.png")
 ```
 
 ---
-
-class: center, hide-logo
 
 background-image: url("images/learn.png")
 background-size: 125%
@@ -1489,7 +1485,7 @@ background-position: 100% 80%
 
 ---
 
-class: center, middle, hide-logo, hide-count
+class: center, middle, hide-count
 
 # `r emo::ji("fire")` Create RStudio Project in 4 Steps `r emo::ji("fire")`
 
